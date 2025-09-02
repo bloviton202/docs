@@ -1,76 +1,200 @@
 ---
-title: "SILO SHOTS"
-description: "Guide complet pour préparer et optimiser vos silo shots avec Presti"
+title: "Silo Shots"
+description: "Quality requirements and best practices for product photograph"
 ---
 
-## Sommaire
 
-<Columns cols={2}>
-  <Card title="Silo Quality Requirements" icon="check-circle" href="#1-silo-quality-requirements">
-    Les exigences de qualité des images silo.
-  </Card>
+## Silo Quality Requirements
 
-  <Card title="Canvas Placement is Permanent" icon="arrows-up-down-left-right" href="#2-canvas-placement-is-permanent">
-    Positionnement définitif du produit sur la toile.
-  </Card>
+Perfect product shots are the foundation of stunning AI-generated scenes. Follow these guidelines for optimal results.
 
-  <Card title="Accessorize Before Generation" icon="plus-circle" href="#3-accessorize-before-generation">
-    Ajouter des accessoires avant de générer l’arrière-plan.
-  </Card>
-
-  <Card title="Common Silo Preparation Mistakes" icon="exclamation-triangle" href="#4-common-silo-preparation-mistakes">
-    Erreurs fréquentes et leurs solutions.
-  </Card>
-</Columns>
+> **Key Principle:** The quality of your input directly affects your output. Invest in good product photography.
 
 ---
 
-## 1. Silo Quality Requirements
+## File Requirements
 
-➡️ Nous acceptons tous les formats d’image (jpg, png, webp, etc).  
-➡️ Utilisez les photos produit en la plus haute résolution possible.  
-➡️ Chargez un silo avec fond blanc ou un lifestyle shot, nous retirerons le fond pour vous.  
-➡️ Pour les rendus 3D, exportez en haute résolution avec textures.  
+### Accepted Formats
 
----
+- `.jpg`, `.png`, `.webp`
+- All common image types supported
+- **Transparency**: PNG with alpha channel works perfectly
+- **File size**: Up to 50MB per image
 
-## 2. Canvas Placement is Permanent
+### Resolution Guidelines
 
-### Le placement du produit sur la toile est définitif
+> **Always provide the highest-resolution photos available.** AI can’t add detail that isn’t there.
 
-➡️ Placez votre produit où vous souhaitez qu’il soit dans la scène, en indiquant à l’IA où est le sol.  
-➡️ Redimensionnez-le pour laisser de la place aux éléments générés autour.  
-
-> 🚨 Si le produit occupe toute la toile, vous ne pourrez pas zoomer en arrière pour ajouter des accessoires plus tard.
-
----
-
-## 3. Accessorize Before Generation
-
-### Ajoutez les accessoires avant de générer l’arrière-plan
-
-➡️ Utilisez l’outil pinceau pour délimiter les accessoires, la taille du pinceau indique leur taille.  
-➡️ Soyez précis dans vos descriptions pour des résultats optimaux, surtout avec des personnes ou animaux.  
-➡️ Ajoutez les accessoires progressivement, en sauvegardant à chaque étape.  
+| **Minimum**      | **Recommended**   | **Optimal**       |
+|------------------|-------------------|-------------------|
+| 1000×1000 px     | 2000×2000 px      | 4000×4000 px+     |
+| Web-only use     | Standard quality  | Print & zoom      |
 
 ---
 
-## 4. Common Silo Preparation Mistakes
+## Background Options
 
-➡️ Produit trop grand sur la toile  
-  **Solution :** Redimensionnez-le avant de générer un arrière-plan, ou utilisez l’outil de redimensionnement après génération.  
+### White Background (Silo)
 
-➡️ Ajouter des accessoires via le prompt au lieu de l’outil Accessorize  
-  **Solution :** Utilisez l’outil Accessorize avant génération pour un meilleur contrôle.  
+- **Advantages**: Clean, consistent, professional  
+- **Best for**: E-commerce, catalogs, batch processing  
+- **Tips**: Ensure true white (#FFFFFF), not gray
 
-➡️ Mauvais angle ou produit flottant en Multi-Produits  
-  **Solution :** Assurez-vous que tous les produits aient le même angle, rotation non supportée actuellement.  
+### Lifestyle Shots
+
+- **Advantages**: Can extract product with context  
+- **Process**: AI automatically removes background  
+- **Use when**: Silo shots unavailable
+
+> Background removal is automatic for both types – no manual masking needed!
 
 ---
 
-## Besoin d’aide ?
+## 3D Rendering Guidelines
 
-<Card title="Contactez notre équipe client" icon="envelope" href="mailto:blanche@presti.ai">
-  Réservez votre session de formation personnalisée.
-</Card>
+### Export Settings
 
+When using 3D software, optimize your exports:
+
+- High resolution
+- Proper lighting and textures
+
+| Quality          | Resolution         |
+|------------------|--------------------|
+| **Minimum**      | 2K (2048×2048 px)  |
+| **Recommended**  | 4K (4096×4096 px)  |
+| **Maximum**      | 8K if available    |
+
+---
+
+## Critical Canvas Placement Rules
+
+### The Permanent Position Principle
+
+> **CRITICAL:** Where you place the product on canvas is its **FINAL** position. This cannot be changed after generation.
+
+#### Placement Steps
+
+1. **Upload Product** – Import your silo or lifestyle shot  
+2. **Position Carefully** – Place product where it should appear in final scene  
+3. **Scale Appropriately** – Size tells AI about floor level and perspective  
+4. **Leave Space** – Empty canvas space = room for AI to build scene
+
+### Common Positioning Mistakes
+
+| **Mistake**            | **Result**              | **Solution**                  |
+|------------------------|-------------------------|-------------------------------|
+| Product fills canvas   | No room for scene       | Scale down, reposition        |
+| Floating placement     | Unrealistic scenes      | Lower to establish floor      |
+| Edge placement         | Cropped results         | Center with margin            |
+| Wrong scale            | Proportion issues       | Reference real-world size     |
+
+---
+
+## Pre-Generation Workflow
+
+### Accessorizing Before Generation
+
+> **Rule:** Add ALL accessories **before** clicking “Generate background”
+
+1. Position main product  
+2. Select Accessorize tool  
+3. Brush areas for each accessory  
+4. Describe specifically what should appear  
+5. Then generate complete scene
+
+### Brush Tool Technique
+
+#### Size Guidance
+
+- Brush size hints accessory scale  
+- Make slightly larger than intended  
+- Overlap is better than gaps
+
+#### Description Quality
+
+- Be specific and detailed  
+- Include materials and colors  
+- Describe positioning
+
+#### Good Accessory Descriptions
+
+- “Sleeping brown Welsh Corgi wrapped in blue wool blanket”  
+- “Large fiddle leaf fig in white ceramic planter with drainage tray”  
+- “Stack of 5 hardcover books with neutral linen spines”
+
+#### Avoid Vague Descriptions
+
+- “Brown dog”  
+- “Plant”  
+- “Books”
+
+---
+
+## Photography Best Practices
+
+### Lighting Setup
+
+- Even lighting, minimize harsh shadows  
+- Neutral color to avoid color casts  
+- Shoot from multiple angles  
+- Keep exposure consistent
+
+### Product Preparation
+
+- Clean thoroughly – dust and marks show  
+- Steam or iron fabrics  
+- Check alignment and symmetry  
+- Stage naturally
+
+### Technical Tips
+
+#### Camera Settings
+- Use a tripod
+- ISO below 800
+- Aperture around f/8
+- Shoot in RAW if possible
+
+#### Post-Processing
+- Remove background if needed
+- Adjust brightness/contrast
+- Avoid heavy filters
+
+#### File Handling
+- Export high-res JPEG or PNG
+- Keep original version
+- Avoid recompression
+
+---
+
+## Quality Checklist
+
+Before uploading, verify:
+
+- [ ] Maximum available resolution  
+- [ ] Clean, distraction-free image  
+- [ ] Proper file format  
+- [ ] Good lighting and exposure  
+- [ ] Natural product position  
+- [ ] No unwanted reflections  
+- [ ] Consistent angle (for sets)
+
+---
+
+## Troubleshooting
+
+### Common Issues
+
+- **Blurry Results**  
+- **Color Shifts**  
+- **Lost Details**
+
+> **Cause**: Low-resolution source  
+> **Fix**: Use a higher-resolution original
+
+---
+
+## Next Steps
+
+Quality shots ready?  
+👉 [**Learn how to write effective AI Prompts**](https://prestiai.mintlify.app/guides/ai-prompts) for stunning scenes.
