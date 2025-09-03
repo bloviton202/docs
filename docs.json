@@ -48,22 +48,14 @@
           {
             "group": "Editing Tools",
             "pages": [
-              "features/editing-tools/resize",
-              "features/editing-tools/erase",
-              "features/editing-tools/magic-replace",
-              "features/editing-tools/accessorize-post",
-              "features/editing-tools/relight",
-              "features/editing-tools/ratio",
-              "features/editing-tools/replace-product"
+              "features/editing/resize",
+              "features/editing/erase",
+              "features/editing/magic-replace",
+              "features/editing/accessorize-post",
+              "features/editing/relight",
+              "features/editing/ratio",
+              "features/editing/replace-product"
             ]
-          },
-          {
-            "group": "features/batch",
-            "pages": []
-          },
-          {
-            "group": "features/video",
-            "pages": []
           }
         ]
       },
@@ -74,20 +66,12 @@
         ]
       },
       {
-        "tab": "Case Studies",
-        "groups": []
-      },
-      {
         "tab": "Support",
         "pages": [
           "support/support"
         ]
       }
     ]
-  },
-  "logo": {
-    "light": "/presti-logo.avif",
-    "dark": "/presti-logo.avif"
   },
   "navbar": {
     "links": [

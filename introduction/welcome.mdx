@@ -3,10 +3,15 @@ title: "Welcome"
 description: "Transform your product visuals with AI-generated lifestyle scenes"
 ---
 
-import Image from 'next/image';
-
 <img
-  style={{ width:"800%" }}
+  src="/images/presti-kitchen.jpg"
+  alt="Presti AI-generated kitchen scene"
+  style={{ 
+    width: "100%", 
+    borderRadius: "12px", 
+    marginBottom: "32px",
+    boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)"
+  }}
 />
 
 ## **What is Presti?**
@@ -17,10 +22,24 @@ Presti is a French startup based in Paris, offering a powerful AI platform desig
 
 Presti is made for **furniture brands, retailers, and manufacturers** who want to:
 
-- Quickly create attractive, realistic product visuals
-- Cut down on time and costs related to photography and 3D modeling
-- Easily update or create new scenes for online stores, catalogs, and marketing materials
-- Scale their visual content production without sacrificing quality
+<CardGroup cols={2}>
+  <Card>
+    **Speed up visual creation**
+    Quickly create attractive, realistic product visuals
+  </Card>
+  <Card>
+    **Reduce production costs**
+    Cut down on time and costs related to photography and 3D modeling
+  </Card>
+  <Card>
+    **Update content easily**
+    Easily update or create new scenes for online stores, catalogs, and marketing materials
+  </Card>
+  <Card>
+    **Scale without compromise**
+    Scale their visual content production without sacrificing quality
+  </Card>
+</CardGroup>
 
 ## **Why choose Presti?**
 
@@ -42,12 +61,37 @@ Trusted by **300\+ furniture brands**, speeding up launches and multiplying visu
 
 ## **Key Features**
 
-- Pay only when you download images
-- Export in multiple formats and resolutions
-- Smart editing tools for easy adjustments
-- Team workspace for seamless collaboration
+<CardGroup cols={2}>
+  <Card title="Pay-Per-Download" icon="download">
+    Only pay when you download images
+  </Card>
+  <Card title="Multiple Formats" icon="file-image">
+    Export in various formats and resolutions
+  </Card>
+  <Card title="Smart Editing" icon="wand-magic-sparkles">
+    Advanced tools for easy adjustments
+  </Card>
+  <Card title="Team Collaboration" icon="users">
+    Seamless workspace for teams
+  </Card>
+</CardGroup>
 
 ---
 
 **Ready to upgrade your product visuals?**
-[Start your free trial](https://app.presti.ai/) and join hundreds of furniture brands transforming their marketing with Presti.
+
+<a href="https://app.presti.ai/" style={{
+  display: "inline-block",
+  backgroundColor: "#4F46E5",
+  color: "white",
+  padding: "12px 24px",
+  borderRadius: "8px",
+  textDecoration: "none",
+  fontWeight: "600",
+  marginTop: "16px",
+  transition: "background-color 0.2s"
+}}>
+  Start Your Free Trial
+</a>
+
+Join hundreds of furniture brands transforming their marketing with Presti.
