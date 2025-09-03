@@ -8,11 +8,14 @@
     "dark": "#5B21B6"
   },
   "favicon": "/presti-logo.avif",
+  "logo": {
+    "light": "/presti-logo.avif",
+    "dark": "/presti-logo.avif"
+  },
   "navigation": {
     "tabs": [
       {
         "tab": "Introduction",
-    
         "pages": [
           "introduction/welcome",
           "introduction/plans",
@@ -33,32 +36,55 @@
       },
       {
         "tab": "Features",
-          "pages": [
-              "features/pre-gen",
-              "features/editing-tools",
-              "features/batch",
-              "features/video"
+        "groups": [
+          {
+            "group": "features/pre-gen",
+            "pages": [
+              "features/pre-gen/edit-cutout",
+              "features/pre-gen/multi-product",
+              "features/pre-gen/accessorize-pre"
             ]
-        
-        
+          },
+          {
+            "group": "features/editing-tools",
+            "pages": [
+              "features/editing-tools/resize",
+              "features/editing-tools/erase",
+              "features/editing-tools/magic-replace",
+              "features/editing-tools/accessorize-post",
+              "features/editing-tools/relight",
+              "features/editing-tools/ratio",
+              "features/editing-tools/replace-product"
+            ]
+          },
+          {
+            "group": "features/batch",
+            "pages": []
+          },
+          {
+            "group": "features/video",
+            "pages": []
+          }
+        ]
       },
       {
         "tab": "Tips & tricks",
-          "pages": [
-              "tips/best-practices",
-              "tips/video"
-            ]
-          }
-      ,
+        "pages": [
+          "tips/best-practices"
+        ]
+      },
       {
         "tab": "Case Studies",
         "groups": []
       },
       {
         "tab": "Support",
-        "pages": ["support/support"    ]  }
-  ],
-
+        "pages": [
+          "support/support"
+        ]
+      }
+    ]
+  },
   "logo": {
     "light": "/presti-logo.avif",
     "dark": "/presti-logo.avif"
@@ -83,8 +109,4 @@
       "linkedin": "https://linkedin.com/company/mintlify"
     }
   }
-
-
-  }
-
 }
