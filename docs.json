@@ -38,7 +38,7 @@
         "tab": "Features",
         "groups": [
           {
-            "group": "features/pre-gen",
+            "group": "Pre-generation",
             "pages": [
               "features/pre-gen/edit-cutout",
               "features/pre-gen/multi-product",
@@ -46,7 +46,7 @@
             ]
           },
           {
-            "group": "features/editing-tools",
+            "group": "Editing Tools",
             "pages": [
               "features/editing-tools/resize",
               "features/editing-tools/erase",
