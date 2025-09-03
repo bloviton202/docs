@@ -1,96 +1,67 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Presti",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#7C3AED",
+    "light": "#C4B5FD",
+    "dark": "#5B21B6"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/presti-logo.avif",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
+        "tab": "Introduction",
+    
+        "pages": [
+          "introduction/welcome",
+          "introduction/plans",
+          "introduction/getting-started",
+          "introduction/faq"
         ]
       },
       {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
+        "tab": "User Guide",
+        "pages": [
+          "user-guide/step1",
+          "user-guide/step2",
+          "user-guide/step3",
+          "user-guide/step4",
+          "user-guide/step5",
+          "user-guide/annex"
+        ]
+      },
+      {
+        "tab": "Features",
+          "pages": [
+              "features/pre-gen",
+              "features/editing-tools",
+              "features/batch",
+              "features/video"
             ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+        
+        
+      },
+      {
+        "tab": "Tips & tricks",
+          "pages": [
+              "tips/best-practices",
+              "tips/video"
             ]
           }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
+      ,
+      {
+        "tab": "Case Studies",
+        "groups": []
+      },
+      {
+        "tab": "Support",
+        "pages": ["support/support"    ]  }
+  ],
+
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/presti-logo.avif",
+    "dark": "/presti-logo.avif"
   },
   "navbar": {
     "links": [
@@ -112,4 +83,8 @@
       "linkedin": "https://linkedin.com/company/mintlify"
     }
   }
+
+
+  }
+
 }
