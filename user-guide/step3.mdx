@@ -1,214 +1,370 @@
 ---
 title: "Image Generation: Art of Prompting"
-description: "Presti’s core AI technology turns simple product photos into beautiful, photorealistic lifestyle scenes — trained exclusively on furniture images.
-**Key Benefit:** Generate unlimited variations until perfect. Credits are only used when you download the final image."
+description: "Presti's core AI technology turns simple product photos into beautiful, photorealistic lifestyle scenes — trained exclusively on furniture images. Key Benefit: Generate unlimited variations until perfect. Credits are only used when you download the final image."
 ---
 
-## **How It Works**
+<Card title="💡 Key Benefit" icon="star" color="#blue">
+  Generate unlimited variations until perfect. Credits are only used when you download the final image.
+</Card>
 
-**1. Upload Your Product**
+## How It Works
 
-Start with any product photo — a silo shot or an existing lifestyle image. Our AI automatically removes the background for you.
+<Steps>
+  <Step title="Upload Your Product">
+    Start with any product photo — a silo shot or an existing lifestyle image. Our AI automatically removes the background for you.
 
-**2. Position & Scale**
+    <Card title="Accepted Formats" icon="upload">
+      - Product photos (any format)
+      - Silo shots or lifestyle images
+      - Automatic background removal
+    </Card>
+  </Step>
+  <Step title="Position & Scale">
+    Place and resize your product on the canvas. This defines the floor plane and composition. Leave enough space around your product to let the AI build the scene naturally.
 
-Place and resize your product on the canvas. This defines the floor plane and composition. Leave enough space around your product to let the AI build the scene naturally.
+    <img
+      src="/images/canvas-positioning.png"
+      alt="Canvas positioning interface showing product placement"
+      style={{ width:"100%",maxWidth:"600px",borderRadius:"8px",marginTop:"16px",marginBottom:"16px",border:"1px solid #e5e7eb" }}
+    />
+  </Step>
+  <Step title="Describe Your Scene & Generate">
+    Use text prompts or the Assisted Prompt tool to describe your desired environment. AI then creates a photorealistic scene in seconds, with correct lighting, shadows, and perspective.
+  </Step>
+</Steps>
 
-<img
-  src="/images/canvas-positioning.png"
-  alt="Canvas positioning interface showing product placement"
-  style={{ 
-    width: "100%", 
-    maxWidth: "600px",
-    borderRadius: "8px", 
-    marginTop: "16px",
-    marginBottom: "16px",
-    border: "1px solid #e5e7eb"
-  }}
-/>
+## New: Presti Styles
 
-**3. Describe Your Scene & Generate**
+<Card title="Skip the Prompting" icon="magic-wand" color="#purple">
+  Skip writing prompts altogether\! Choose from curated style presets to instantly apply a consistent look and feel to your scene — perfect for fast, professional results without needing to prompt.
 
-Use text prompts or the Assisted Prompt tool to describe your desired environment. AI then creates a photorealistic scene in seconds, with correct lighting, shadows, and perspective.
+  <CardGroup cols={3}>
+    <Card title="Fast Results" icon="zap">
+      Instant style application
+    </Card>
+    <Card title="Professional" icon="award">
+      Curated presets
+    </Card>
+    <Card title="Consistent" icon="layers">
+      Unified look & feel
+    </Card>
+  </CardGroup>
+</Card>
+
+## Prompting Options
+
+<Tabs>
+  <Tab title="Text Prompt">
+    Write natural language descriptions like:
+
+    <CodeGroup>
+
+    ```text Living Room
+    "Modern minimalist living room with large windows"
+    ```
+
+    
+    ```text Bedroom
+    "Cozy bedroom with warm lighting and plants"
+    ```
+
+    
+    ```text Office
+    "Scandinavian office space with natural wood"
+    ```
+
+    </CodeGroup>
+  </Tab>
+  <Tab title="Assisted Prompt">
+    <Card title="AI-Powered Enhancement" icon="robot">
+      - Enter a simple idea
+      - AI expands it to 30\+ detailed keywords
+      - Ensures optimal scene layout and realism
+      - Improves quality and detail
+    </Card>
+    <img
+      src="/images/assisted-prompt.png"
+      alt="Assisted Prompt interface showing AI-powered prompt enhancement"
+      style={{ width:"100%",maxWidth:"700px",borderRadius:"8px",marginTop:"16px",marginBottom:"16px",border:"1px solid #e5e7eb" }}
+    />
+  </Tab>
+  <Tab title="Inspiration Images">
+    <Steps>
+      <Step title="Upload Reference">
+        Upload reference images to guide the style
+      </Step>
+      <Step title="AI Analysis">
+        AI analyzes visual features and converts to descriptive text prompt
+      </Step>
+      <Step title="Edit & Generate">
+        Prompt is editable before generation
+      </Step>
+    </Steps>
+    <Tip>
+      No copyright risk — only extracts style, doesn't copy images
+    </Tip>
+  </Tab>
+</Tabs>
+
+## Why Good Prompts Matter
+
+<Warning>
+  Great AI images come from clear prompts that guide the AI but still leave room for creativity.
+</Warning>
+
+<Card title="Main Principle" icon="lightbulb">
+  Be clear about what you want, but let the AI handle the artistic details.
+</Card>
+
+## Using the Assisted Prompt Tool
+
+<AccordionGroup>
+  <Accordion title="How It Works" icon="cog">
+    This tool helps you turn a simple idea into a detailed prompt automatically:
+
+    - Expands your idea into 30\+ keywords
+    - Adds photography terms
+    - Keeps the scene consistent
+    - Works especially well for furniture
+  </Accordion>
+  <Accordion title="Step-by-Step Usage" icon="list">
+    <Steps>
+      <Step title="Simple Input">
+        Type a simple idea (e.g., "modern living room")
+      </Step>
+      <Step title="AI Enhancement">
+        The AI adds details like lighting, materials, and mood
+      </Step>
+      <Step title="Review & Tweak">
+        You can review and adjust the generated prompt
+      </Step>
+      <Step title="Generate">
+        Create your scene with the enhanced prompt
+      </Step>
+    </Steps>
+  </Accordion>
+</AccordionGroup>
+
+## Two Ways to Prompt
+
+<CardGroup cols={2}>
+  <Card title="1. Write a Description" icon="pen">
+    Just describe what you want in normal language:
+
+    - Room style and type
+    - Atmosphere and lighting
+    - Key furniture or features
+    - The AI fills in the rest
+  </Card>
+  <Card title="2. Upload Inspiration Images" icon="image">
+    Upload photos for the AI to analyze style and colors.
+
+    <Check>
+      No copyright worries — the AI only extracts style ideas, not copies images
+    </Check>
+  </Card>
+</CardGroup>
+
+## How to Edit Prompts
+
+<Tabs>
+  <Tab title="Chat Commands">
+    Use natural language to modify your prompts:
+
+    <CodeGroup>
+
+    ```text Add Elements
+    "Add a large window with curtains"
+    ```
+
+    
+    ```text Remove Elements
+    "Remove the fireplace"
+    ```
+
+    
+    ```text Change Style
+    "Make it industrial with exposed brick"
+    ```
+
+    
+    ```text Adjust Mood
+    "Warmer lighting, sunset glow"
+    ```
+
+    </CodeGroup>
+  </Tab>
+  <Tab title="Direct Editing">
+    Edit the prompt text directly for precise control over every element and detail.
+  </Tab>
+</Tabs>
+
+## What Makes a Good Prompt?
+
+<Card title="Essential Elements" icon="checklist">
+  Include these key components:
+
+  <Steps>
+    <Step title="Room Type & Style">
+      "Modern minimalist bedroom"
+    </Step>
+    <Step title="Product Placement">
+      "Sofa against back wall"
+    </Step>
+    <Step title="Lighting & Mood">
+      "Soft morning light"
+    </Step>
+    <Step title="Key Details">
+      "Wooden coffee table, plants"
+    </Step>
+  </Steps>
+</Card>
+
+### Prompt Formula
+
+<CodeGroup>
+
+```text Structure
+[Style] [Room Type] with [Product Placement], [Lighting], [Mood], [Key Elements], [Extras]
+```
+
+
+```text Example
+"Modern farmhouse living room with gray sofa against shiplap wall, warm afternoon light, cozy atmosphere, wooden coffee table, woven rug, potted plants"
+```
+
+</CodeGroup>
+
+## Be Specific
+
+<Tabs>
+  <Tab title="Comparison Guide">
+    | What to specify | Weak            | Strong                                     |
+    | --------------- | --------------- | ------------------------------------------ |
+    | Style           | "nice room"     | "mid-century modern living room"           |
+    | Placement       | "sofa in room"  | "sofa against north wall facing fireplace" |
+    | Lighting        | "good lighting" | "soft natural light from large windows"    |
+    | Mood            | "comfortable"   | "warm, inviting with hygge elements"       |
+  </Tab>
+  <Tab title="What to Avoid">
+    <Warning>
+      Avoid overly technical or conflicting details that may confuse the AI generation process.
+    </Warning>
+  </Tab>
+</Tabs>
+
+## Tips for Different Rooms
+
+<AccordionGroup>
+  <Accordion title="Living Room" icon="couch">
+    Focus on: Seating arrangements, focal points, natural light sources
+
+    **Example:**
+    "Open-concept living room with L-shaped sofa facing wall-mounted TV, large windows with city view, modern minimalist style"
+  </Accordion>
+  <Accordion title="Bedroom" icon="bed">
+    Focus on: Bed style, textures, lighting ambiance
+
+    **Key Elements:**
+
+    - Bed positioning and style
+    - Textile choices and colors
+    - Lighting mood and sources
+  </Accordion>
+  <Accordion title="Office" icon="briefcase">
+    Focus on: Desk placement, lighting quality, organization systems
+
+    **Consider:**
+
+    - Workspace functionality
+    - Natural vs artificial lighting
+    - Storage and organization
+  </Accordion>
+</AccordionGroup>
+
+## Advanced Tips
+
+<Card title="Iterative Improvement Process" icon="refresh">
+  <Steps>
+    <Step title="Start Broad">
+      Begin with a broad idea for your scene
+    </Step>
+    <Step title="Generate & Review">
+      Create initial version and analyze results
+    </Step>
+    <Step title="Identify Changes">
+      Note what needs adjustment or improvement
+    </Step>
+    <Step title="Refine Prompt">
+      Update your prompt with specific changes
+    </Step>
+    <Step title="Regenerate">
+      Create new version with refined prompt
+    </Step>
+  </Steps>
+</Card>
+
+### Maintaining Consistency
+
+<Tabs>
+  <Tab title="Style Consistency">
+    To keep consistent style across images:
+
+    - Save and reuse successful prompts
+    - Create prompt templates for different scenarios
+    - Reference past prompts that worked well
+  </Tab>
+  <Tab title="Best Practices">
+    - Document your most effective prompts
+    - Keep track of successful modifications
+    - Share proven prompts with your team
+    - Test variations to optimize results
+  </Tab>
+</Tabs>
+
+## Example Prompts
+
+<AccordionGroup>
+  <Accordion title="Scandinavian Style" icon="home">
+    ```text
+    "Scandinavian living room with white linen sofa, pale gray walls, natural oak floors, minimal decor, bright and airy, hygge vibe"
+    ```
+  </Accordion>
+  <Accordion title="Modern Office" icon="computer">
+    ```text
+    "Modern home office with standing desk near floor-to-ceiling windows, ergonomic chair, plants on shelves, clean and productive"
+    ```
+  </Accordion>
+  <Accordion title="Boutique Hotel" icon="building">
+    ```text
+    "Boutique hotel bedroom with navy velvet headboard, white bedding, brass accents, soft evening lighting, luxurious feel"
+    ```
+  </Accordion>
+</AccordionGroup>
+
+## Pro Tips
+
+<CardGroup cols={2}>
+  <Card title="Organization" icon="folder">
+    - Save your best prompts
+    - Keep track of successful changes
+    - Create prompt libraries by style
+  </Card>
+  <Card title="Team Collaboration" icon="users">
+    - Share effective prompts with your team
+    - Document what works for different products
+    - Test variations to find optimal results
+  </Card>
+</CardGroup>
+
+## Next Steps
+
+<Card title="Ready to Generate?" icon="sparkles">
+  Now that you understand the art of prompting, you're ready to create stunning AI-generated scenes for your products\!
+
+  Start Generating Images →
+</Card>
 
 ---
 
-## **New: Presti Styles**
-
-Skip writing prompts altogether\! Choose from curated style presets to instantly apply a consistent look and feel to your scene — perfect for fast, professional results without needing to prompt.
-
----
-
-## **Prompting Options**
-
-### Text Prompt
-
-Write natural language descriptions like:
-
-- “Modern minimalist living room with large windows”
-- “Cozy bedroom with warm lighting and plants”
-- “Scandinavian office space with natural wood”
-
-### Assisted Prompt
-
-- Enter a simple idea
-- AI expands it to 30\+ detailed keywords
-- Ensures optimal scene layout and realism
-- Improves quality and detail
-
-<img
-  src="/images/assisted-prompt.png"
-  alt="Assisted Prompt interface showing AI-powered prompt enhancement"
-  style={{ 
-    width: "100%", 
-    maxWidth: "700px",
-    borderRadius: "8px", 
-    marginTop: "16px",
-    marginBottom: "16px",
-    border: "1px solid #e5e7eb"
-  }}
-/>
-
-### Inspiration Images
-
-Upload reference images to guide the style:
-
-1. AI analyzes visual features
-2. Converts to descriptive text prompt
-3. Editable before generation
-4. No copyright risk — only extracts style
-
-How to write prompts for great photorealistic images
-
----
-
-## **Why Good Prompts Matter**
-
-Great AI images come from clear prompts that guide the AI but still leave room for creativity.
-
-**Main idea:** Be clear about what you want, but let the AI handle the artistic details.
-
----
-
-## **Using the Assisted Prompt Tool**
-
-This tool helps you turn a simple idea into a detailed prompt automatically:
-
-- Expands your idea into 30\+ keywords
-- Adds photography terms
-- Keeps the scene consistent
-- Works especially well for furniture
-
-**How to use it:**
-
-1. Type a simple idea (e.g., “modern living room”)
-2. The AI adds details like lighting, materials, and mood
-3. You can review and tweak the prompt
-4. Generate your scene
-
----
-
-## **Two Ways to Prompt**
-
-### 1. Write a Description
-
-Just describe what you want in normal language:
-
-- Room style and type
-- Atmosphere and lighting
-- Key furniture or features
-- The AI fills in the rest
-
-### 2. Upload Inspiration Images
-
-Upload photos for the AI to analyze style and colors.
-
-No copyright worries — the AI only extracts style ideas, not copies images.
-
----
-
-## **How to Edit Prompts**
-
-Use chat commands or edit the prompt directly:
-
-- Add elements (“Add a large window with curtains”)
-- Remove elements (“Remove the fireplace”)
-- Change style (“Make it industrial with exposed brick”)
-- Adjust mood (“Warmer lighting, sunset glow”)
-
----
-
-## **What Makes a Good Prompt?**
-
-Include:
-
-1. Room type and style (“Modern minimalist bedroom”)
-2. Product placement (“Sofa against back wall”)
-3. Lighting and mood (“Soft morning light”)
-4. Key details (“Wooden coffee table, plants”)
-
-**Formula:**
-
-`[Style] [Room Type] with [Product Placement], [Lighting], [Mood], [Key Elements], [Extras]`
-
-Example:
-
-“Modern farmhouse living room with gray sofa against shiplap wall, warm afternoon light, cozy atmosphere, wooden coffee table, woven rug, potted plants”
-
----
-
-## **Be Specific**
-
-| What to specify | Weak            | Strong                                     |
-| :-------------- | :-------------- | :----------------------------------------- |
-| Style           | “nice room”     | “mid-century modern living room”           |
-| Placement       | “sofa in room”  | “sofa against north wall facing fireplace” |
-| Lighting        | “good lighting” | “soft natural light from large windows”    |
-| Mood            | “comfortable”   | “warm, inviting with hygge elements”       |
-
-Avoid overly technical or conflicting details.
-
----
-
-## **Tips for Different Rooms**
-
-- Living room: Seating, focal points, natural light
-- Bedroom: Bed style, textures, lighting
-- Office: Desk placement, light, organization
-
-Example:
-
-“Open-concept living room with L-shaped sofa facing wall-mounted TV, large windows with city view, modern minimalist style”
-
----
-
-## **Advanced Tips**
-
-- Start with a broad idea
-- Generate and review
-- Note what to change
-- Refine your prompt
-- Regenerate
-
-To keep consistent style across images:
-
-- Save and reuse prompts
-- Use templates
-- Reference past prompts
-
----
-
-## **Example Prompts**
-
-- “Scandinavian living room with white linen sofa, pale gray walls, natural oak floors, minimal decor, bright and airy, hygge vibe”
-- “Modern home office with standing desk near floor-to-ceiling windows, ergonomic chair, plants on shelves, clean and productive”
-- “Boutique hotel bedroom with navy velvet headboard, white bedding, brass accents, soft evening lighting, luxurious feel”
-
----
-
-## **Pro Tips**
-
-- Save your best prompts
-- Keep track of changes
-- Share prompts with your team
-- Test different versions to find what works best
+<Snippet file="advanced-generation-tips.mdx" />
