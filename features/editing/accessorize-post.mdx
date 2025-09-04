@@ -1,36 +1,61 @@
 ---
 title: "Accessorize After Background Generation (Beta)"
-description: "Add objects on top of your product after the background has been generated."
+description: "Add objects on top of your product after the background has been generated. Ideal for simple additions within the product's mask."
 ---
 
-### When to use Accessorize After Generation
+## When to Use Accessorize After Generation
 
-Use this feature to:
-
-- Add simple accessories strictly **within the product's mask** (e.g., a cushion on a couch)
+<Card title="Add Simple Accessories" icon="plus-circle">
+  Place accessories **strictly within the product's mask** (e.g., a cushion on a couch).
+</Card>
 
 <Warning>
-**Beta Feature Notice**
+  **Beta Feature Notice**
+  This feature is still in beta and not optimized for adding elements **outside** the product area. Accessories placed outside the product mask may result in visible white outlines or glitches.
 
-This feature is still in beta and not optimized for adding elements outside the product area. Accessories placed outside the product mask may be poorly integrated, with visible white outlines or glitches.
+  <br />
 
-For accessories that should appear near but outside the product (e.g., a person sitting on the couch or an object on a coffee table in front), we recommend using **[Accessorize Before Generation](/features/pre-gen/accessorize-pre)** to ensure perfect integration with the background.
+  For accessories that should appear near but outside the product (e.g., a person sitting on the couch or an object on a coffee table), we recommend using [**Accessorize Before Generation**](/features/pre-gen/accessorize-pre) for perfect integration with the background.
 </Warning>
 
 ---
 
-### How it works
+## How It Works
 
-1. Generate your background
-2. Select the **Accessorize** tool
-3. Use the **brush tool** to define the accessory's boundaries
-   - The brush size hints at the accessory's scale
-   
-<Tip>
-Brush slightly larger than the actual accessory for best results
-</Tip>
-4. Choose how to add your accessory (three options):
-   - Provide a **detailed description**
-   - Select an image from our catalog (used as a reference, not replicated exactly)
-   - Upload an image from the internet or your catalog (also used as reference)
-5. Generate the scene with the accessory included
+<Steps>
+  <Step title="Generate Your Background">
+    Start by creating your scene with the desired background.
+  </Step>
+  <Step title="Select the Accessorize Tool">
+    Open the editing panel and choose **Accessorize**.
+  </Step>
+  <Step title="Define Accessory Boundaries">
+    Use the **brush tool** to mark where the accessory should appear.
+
+    <Tip>
+      Brush slightly **larger** than the actual accessory for best results.
+    </Tip>
+  </Step>
+  <Step title="Choose How to Add Your Accessory">
+    <Tabs>
+      <Tab title="Detailed Description">
+        <Card title="Describe the Accessory" icon="edit">
+          Provide a clear, specific description of the accessory.
+        </Card>
+      </Tab>
+      <Tab title="Catalog Reference">
+        <Card title="Select from Catalog" icon="image">
+          Choose an image from our catalog as a visual reference (not replicated exactly).
+        </Card>
+      </Tab>
+      <Tab title="Upload an Image">
+        <Card title="Upload a Reference" icon="upload">
+          Add an image from the internet or your catalog as a reference.
+        </Card>
+      </Tab>
+    </Tabs>
+  </Step>
+  <Step title="Generate the Scene">
+    The accessory will be integrated into the scene with the product.
+  </Step>
+</Steps>

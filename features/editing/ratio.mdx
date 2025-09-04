@@ -1,41 +1,82 @@
 ---
 title: "Aspect Ratio"
-description: "Switch between different canvas formats without regenerating your scene from scratch."
+description: "Switch between different canvas formats without regenerating your scene from scratch. Adapt your visuals for any platform effortlessly."
 ---
 
-<iframe
-  width="100%"
-  height="400"
-  src="https://www.youtube.com/embed/5Gy4mMKeNGE?start=9"
-  title="Change Aspect Ratio Tutorial"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowFullScreen
-  style={{ borderRadius: "8px", marginBottom: "20px" }}
-/>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/5Gy4mMKeNGE?start=9" title="Change Aspect Ratio Tutorial" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen style={{ borderRadius:"8px",marginBottom:"20px" }} />
 
 ---
 
-### When to use Change Aspect Ratio
+## When to Use Change Aspect Ratio
 
-Use **Change Aspect Ratio** when you want to:
-
-- Adapt images for social media, web banners, or print formats
-- Repurpose an existing scene for multiple platforms
-- Maintain your product placement while adjusting dimensions
-
----
-
-### Available formats
-
-- **Square (1:1)** — Instagram posts, thumbnails
-- **Portrait (2:3, 3:4, 4:5, 9:16)** — Social media vertical formats
-- **Landscape (3:2, 4:3, 5:4, 16:9)** — Websites, banners, videos
+<CardGroup cols={2}>
+  <Card title="Adapt for Social Media" icon="share-2">
+    Optimize images for Instagram, Facebook, or TikTok.
+  </Card>
+  <Card title="Repurpose for Multiple Platforms" icon="monitor">
+    Use the same scene for websites, banners, or print.
+  </Card>
+  <Card title="Maintain Product Placement" icon="move">
+    Adjust dimensions while keeping your product perfectly positioned.
+  </Card>
+</CardGroup>
 
 ---
 
-### How it works
+## Available Formats
 
-AI extends or crops the scene to fit the new ratio while preserving your product’s position and lighting.
+<Tabs>
+  <Tab title="Square (1:1)">
+    <Card title="Instagram Posts" icon="instagram">
+      Ideal for thumbnails and grid posts.
+    </Card>
+  </Tab>
+  <Tab title="Portrait">
+    <CardGroup cols={2}>
+      <Card title="2:3" icon="smartphone">
+        Classic vertical format.
+      </Card>
+      <Card title="3:4" icon="smartphone">
+        Common for mobile displays.
+      </Card>
+      <Card title="4:5" icon="smartphone">
+        Instagram Stories and Reels.
+      </Card>
+      <Card title="9:16" icon="smartphone">
+        Full-screen mobile content.
+      </Card>
+    </CardGroup>
+  </Tab>
+  <Tab title="Landscape">
+    <CardGroup cols={2}>
+      <Card title="3:2" icon="monitor">
+        Standard for photography.
+      </Card>
+      <Card title="4:3" icon="monitor">
+        Traditional TV and web banners.
+      </Card>
+      <Card title="5:4" icon="monitor">
+        Print and presentations.
+      </Card>
+      <Card title="16:9" icon="monitor">
+        Widescreen videos and headers.
+      </Card>
+    </CardGroup>
+  </Tab>
+</Tabs>
 
-The AI fills new areas with context-aware details for a seamless result.
+---
+
+## How It Works
+
+<Steps>
+  <Step title="Select New Aspect Ratio">
+    Choose your desired format from the available options.
+  </Step>
+  <Step title="AI Adjustment">
+    The AI extends or crops the scene to fit the new ratio, preserving your product’s position and lighting.
+  </Step>
+  <Step title="Context-Aware Fill">
+    New areas are filled with context-aware details for a seamless result.
+  </Step>
+</Steps>

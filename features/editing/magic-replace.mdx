@@ -1,6 +1,6 @@
 ---
 title: "Magic Replace"
-description: "Transform scene elements while keeping the original composition intact."
+description: "Transform scene elements while keeping the original composition intact. Update materials, colors, or styles effortlessly."
 ---
 
 <iframe
@@ -12,24 +12,44 @@ description: "Transform scene elements while keeping the original composition in
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowFullScreen
   style={{ borderRadius: "8px", marginBottom: "20px" }}
-/>
+></iframe>
 
 ---
 
-### When to use Magic Replace
+## When to Use Magic Replace
 
-Use **Magic Replace** when you want to:
-
-- Change a material (e.g., wood → metal, fabric → leather)
-- Adjust a color (e.g., beige → gray, oak → walnut)
-- Update a style (e.g., modern → vintage, simple → ornate)
+<CardGroup cols={2}>
+  <Card title="Change Materials" icon="layers">
+    Replace wood with metal, fabric with leather, etc.
+  </Card>
+  <Card title="Adjust Colors" icon="droplet">
+    Switch from beige to gray, oak to walnut, etc.
+  </Card>
+  <Card title="Update Styles" icon="star">
+    Transform modern to vintage, simple to ornate, etc.
+  </Card>
+</CardGroup>
 
 ---
 
-### How it works
+## How It Works
 
-1. Click the object you want to replace
-2. Type a precise description of what should appear instead
-3. AI swaps the element while keeping lighting, perspective, and context consistent
+<Steps>
+  <Step title="Select the Object">
+    Click on the element you want to replace in the scene.
+  </Step>
+  <Step title="Describe the Replacement">
+    Type a **precise description** of what should appear instead.
+  </Step>
+  <Step title="AI Transformation">
+    The AI swaps the element while preserving lighting, perspective, and context.
+  </Step>
+</Steps>
 
-**Tip:** The AI preserves the original shape and placement — be specific in your replacement description for the best results.
+<Tip>
+  The AI maintains the original shape and placement. **Be specific** in your description for the best results.
+  <br />
+  **Example:**
+  - ✅ "Replace the wooden table with a black marble table"
+  - ❌ "Change the table"
+</Tip>
