@@ -1,9 +1,9 @@
 ---
-title: "Image Generation: Art of Prompting"
-description: "Presti's core AI technology turns simple product photos into beautiful, photorealistic lifestyle scenes — trained exclusively on furniture images. Key Benefit: Generate unlimited variations until perfect. Credits are only used when you download the final image."
+title: "Generation Background: Art of Prompting"
+description: "Presti's core AI technology turns simple product photos into beautiful, photorealistic lifestyle scenes — trained exclusively on furniture images. "
 ---
 
-<Card title="💡 Key Benefit" icon="star" color="#blue">
+<Card title="Key Benefit" icon="star" color="#blue">
   Generate unlimited variations until perfect. Credits are only used when you download the final image.
 </Card>
 
@@ -12,12 +12,6 @@ description: "Presti's core AI technology turns simple product photos into beaut
 <Steps>
   <Step title="Upload Your Product">
     Start with any product photo — a silo shot or an existing lifestyle image. Our AI automatically removes the background for you.
-
-    <Card title="Accepted Formats" icon="upload">
-      - Product photos (any format)
-      - Silo shots or lifestyle images
-      - Automatic background removal
-    </Card>
   </Step>
   <Step title="Position & Scale">
     Place and resize your product on the canvas. This defines the floor plane and composition. Leave enough space around your product to let the AI build the scene naturally.
@@ -33,48 +27,9 @@ description: "Presti's core AI technology turns simple product photos into beaut
   </Step>
 </Steps>
 
-## New: Presti Styles
-
-<Card title="Skip the Prompting" icon="magic-wand" color="#purple">
-  Skip writing prompts altogether\! Choose from curated style presets to instantly apply a consistent look and feel to your scene — perfect for fast, professional results without needing to prompt.
-
-  <CardGroup cols={3}>
-    <Card title="Fast Results" icon="zap">
-      Instant style application
-    </Card>
-    <Card title="Professional" icon="award">
-      Curated presets
-    </Card>
-    <Card title="Consistent" icon="layers">
-      Unified look & feel
-    </Card>
-  </CardGroup>
-</Card>
-
 ## Prompting Options
 
 <Tabs>
-  <Tab title="Text Prompt">
-    Write natural language descriptions like:
-
-    <CodeGroup>
-
-    ```text Living Room
-    "Modern minimalist living room with large windows"
-    ```
-
-    
-    ```text Bedroom
-    "Cozy bedroom with warm lighting and plants"
-    ```
-
-    
-    ```text Office
-    "Scandinavian office space with natural wood"
-    ```
-
-    </CodeGroup>
-  </Tab>
   <Tab title="Assisted Prompt">
     <Card title="AI-Powered Enhancement" icon="robot">
       - Enter a simple idea
@@ -106,241 +61,468 @@ description: "Presti's core AI technology turns simple product photos into beaut
   </Tab>
 </Tabs>
 
-## Why Good Prompts Matter
+## **The Art of Prompting: A Guide by Product Type and Scene**
 
-<Warning>
-  Great AI images come from clear prompts that guide the AI but still leave room for creativity.
-</Warning>
+Prompting for product visualization requires distinct approaches depending on the product type and its intended environment. This guide breaks down best practices for three categories:
 
-<Card title="Main Principle" icon="lightbulb">
-  Be clear about what you want, but let the AI handle the artistic details.
-</Card>
+1. **General Furniture** (easy to stage as the focal point).
+2. **Accessories & Wall/Ceiling-Mounted Products** (require precise placement).
+3. **Professional Staging** (complex environments like restaurants, offices, or classrooms).
 
-## Using the Assisted Prompt Tool
+Each section includes **tips**, **example prompts**, and **recommended scenes** to achieve realistic, high-quality results.
 
-<AccordionGroup>
-  <Accordion title="How It Works" icon="cog">
-    This tool helps you turn a simple idea into a detailed prompt automatically:
+---
 
-    - Expands your idea into 30\+ keywords
-    - Adds photography terms
-    - Keeps the scene consistent
-    - Works especially well for furniture
-  </Accordion>
-  <Accordion title="Step-by-Step Usage" icon="list">
-    <Steps>
-      <Step title="Simple Input">
-        Type a simple idea (e.g., "modern living room")
-      </Step>
-      <Step title="AI Enhancement">
-        The AI adds details like lighting, materials, and mood
-      </Step>
-      <Step title="Review & Tweak">
-        You can review and adjust the generated prompt
-      </Step>
-      <Step title="Generate">
-        Create your scene with the enhanced prompt
-      </Step>
-    </Steps>
-  </Accordion>
-</AccordionGroup>
+## 1. General Furniture Prompting
 
-## Two Ways to Prompt
+Showcase the product as the main subject with two distinct approaches:
 
-<CardGroup cols={2}>
-  <Card title="1. Write a Description" icon="pen">
-    Just describe what you want in normal language:
-
-    - Room style and type
-    - Atmosphere and lighting
-    - Key furniture or features
-    - The AI fills in the rest
-  </Card>
-  <Card title="2. Upload Inspiration Images" icon="image">
-    Upload photos for the AI to analyze style and colors.
-
-    <Check>
-      No copyright worries — the AI only extracts style ideas, not copies images
-    </Check>
-  </Card>
-</CardGroup>
-
-## How to Edit Prompts
+- **Brand-Guideline Prompts** for rich, immersive scenes
+- **Minimalist Prompts** for clean, product-focused visuals
 
 <Tabs>
-  <Tab title="Chat Commands">
-    Use natural language to modify your prompts:
+  <Tab title="Brand-Guideline Prompts">
+    ### Rich, Immersive Scenes
+
+    Create stylized environments perfectly aligned with brand guidelines, focusing on ambiance, materials, and architectural context.
+
+    #### Prompt Structure Framework
+
+    <AccordionGroup>
+      <Accordion title="Main Subject & Setting" icon="bullseye">
+        <ul>
+        Focal Object: Name of the product (e.g., chaise lounge, bar stools, armchair).
+
+        Space Type: Room or environment (e.g., reading nook, kitchen, terrace, urban apartment).
+
+        Overall Mood: Ambiance (e.g., moody, sophisticated, serene, luxurious).
+
+        </ul>
+      </Accordion>
+      <Accordion title="Architectural & Design Details" icon="building">
+        <ul>
+        Structural Elements:
+
+        - Windows/Doors: Style (e.g., Tudor, floor-to-ceiling), materials (e.g., black metal, wood), details (e.g., leaded glass, arches).
+        - Walls: Color, texture (e.g., paint, wallpaper, marble), details (e.g., panel molding, alcoves).
+        - Floors: Material (e.g., hardwood, stone), pattern (e.g., herringbone, wide planks), color.
+        - Ceilings: Height, details (e.g., beams, recessed lighting).
+
+        Color Palette: Specific names or codes (e.g., warm mushroom gray, charcoal, brass).
+
+        Lighting: Source (natural or artificial), time of day (e.g., golden hour), direction (e.g., side lighting).
+
+        </ul>
+      </Accordion>
+      <Accordion title="Furniture & Decor" icon="couch">
+        <ul>
+        Primary Furniture: Shape, material, color (e.g., velvet chaise, walnut island).
+
+        Secondary Furniture: Tables, shelves, lighting (e.g., brass floor lamp, marble side table).
+
+        Decorative Objects: Vases, bowls, glassware, plants (e.g., ceramic vase, eucalyptus branches).
+
+        Textiles: Curtains, rugs, cushions (e.g., taupe linen drapes, neutral-toned area rug).
+
+        </ul>
+      </Accordion>
+      <Accordion title="Environmental Context" icon="building">
+        <ul>
+        Exterior View: Landscape (e.g., mountains, city skyline), sky (e.g., blue-to-peach gradient, scattered clouds).
+
+        Lighting Ambience: Effects (e.g., geometric shadows, warm glow).
+
+        </ul>
+      </Accordion>
+      <Accordion title="Atmosphere & Emotion" icon="lamp">
+        <ul>
+        Style: Mix of styles (e.g., traditional meets modern, contemporary elegance).
+
+        Desired Feeling: Emotion (e.g., cozy, refined, serene, inviting).
+
+        </ul>
+      </Accordion>
+    </AccordionGroup>
+    #### Step-by-Step Construction
+
+    <Steps>
+      <Step title="Define Focal Object & Setting">
+        **Example:** "_Chaise lounge in a moody traditional reading corner_"
+
+        <Tip>
+          Specify the room's purpose and dominant style for better context
+        </Tip>
+      </Step>
+      <Step title="Describe Architectural Features">
+        **Example:** "_Position the chaise lounge near Tudor-style windows with black diamond-pattern leaded glass mullions and matching trim. The walls are painted in warm mushroom gray, and the floor is light oak in a herringbone pattern. The ceiling, 3 meters high, features exposed dark oak beams._"
+      </Step>
+      <Step title="Add Furniture & Accessories">
+        **Example:** "_Beside the chaise, place a cylindrical side table in white marble with dramatic black veining, topped with a light wood bowl. Add a brass perforated floor lamp, its arch hovering over the chaise. A neutral-toned wool rug peeks out from under the chaise._"
+      </Step>
+      <Step title="Specify Textiles & Materials">
+        **Example:** "_Frame the windows with floor-to-ceiling taupe linen drapes hung from a black metal rod, pooling elegantly on the floor. A plush gray wool rug is partially visible beneath the chaise._"
+      </Step>
+      <Step title="Detail the Lighting">
+        **Example:** "_Natural light filters through the diamond-paned windows, casting geometric shadows on the walls. A brass pendant light above the island casts a warm glow on the marble countertop._"
+      </Step>
+      <Step title="Integrate the Exterior Context">
+        **Example:** "_Beyond the windows, a lush green landscape stretches out, bathed in the golden light of late afternoon. The sky transitions from deep blue to soft peach near the horizon, with a few wispy clouds._"
+      </Step>
+      <Step title="Define Atmosphere">
+        **Example:** "_The overall atmosphere is sophisticated and contemplative, perfect for an English-inspired library where traditional architecture meets luxurious comfort in a palette of warm grays and natural tones._"
+      </Step>
+    </Steps>
+    <Accordion title="Fill-in-the-Blank Template" icon="image">
+      <CardGroup cols={1}>
+        <code>
+        [Focal object] in a [room type] with a [style/mood] ambiance.
+        Position the [focal object] near/against [architectural feature], characterized by [materials, colors, shapes].
+        Add [secondary furniture] in [material], with [details: color, texture].
+        The [walls/floors/ceilings] are [material], in [color], with [details: patterns, finishes].
+        Dress the space with [textiles: curtains, rugs] in [material], [color], [details: length, pattern].
+        Light the scene with [light source], creating [effects: shadows, glow].
+        Outside, [view: landscape, city, sky] is visible, with [details: colors, time of day].
+        The atmosphere is [emotion], ideal for [use: reading, entertaining], where [style 1] meets [style 2] in a palette of [colors].[Focal object] in a [room type] with a [style/mood] ambiance.
+        Position the [focal object] near/against [architectural feature], characterized by [materials, colors, shapes].
+        Add [secondary furniture] in [material], with [details: color, texture].
+        The [walls/floors/ceilings] are [material], in [color], with [details: patterns, finishes].
+        Dress the space with [textiles: curtains, rugs] in [material], [color], [details: length, pattern].
+        Light the scene with [light source], creating [effects: shadows, glow].
+        Outside, [view: landscape, city, sky] is visible, with [details: colors, time of day].
+        The atmosphere is [emotion], ideal for [use: reading, entertaining], where [style 1] meets [style 2] in a palette of [colors].
+
+        </code>
+      </CardGroup>
+    </Accordion>
+    <Accordion title="Prompt Examples" icon="image">
+      <CardGroup cols={1}>
+        <Card title="Sophisticated Kitchen Island" icon="kitchen">
+          <div style={{ textAlign:"center",marginBottom:"20px" }}>
+          ![Kitchen Island Example](https://via.placeholder.com/800x500/ffffff/cccccc?text=Kitchen+Island+Visualization)
+
+          </div>
+
+          <Card title="Prompt" icon="edit">
+            <code>
+            straight on of island, Create a sophisticated two-tone kitchen showcasing a marble waterfall island as the centerpiece. The island features Carrara marble countertops with gray veining and a base clad in white subway tiles laid in a vertical stack pattern, with three backless bar stools featuring brass frames and tan leather seats. Design upper cabinets in soft gray with glass-front doors displaying white dishware, flanking a concealed range hood. Install lower cabinets in deep charcoal blue. Create a full-height marble slab backsplash matching the countertops. Above the island, suspend two clear glass pendant lights with tiered, vintage-inspired designs and brass hardware on black cords. Include a brass pot filler faucet above the range and matching brass kitchen faucet at the sink. Style the island with a white ceramic vase containing burgundy and green foliage, fresh lemons in a navy bowl, white serving pieces, and cookbooks. The flooring should be dark wood in a herringbone pattern. Paint walls in soft white with detailed crown molding. Natural light should illuminate the space, highlighting the contrast between the light upper cabinets and dark lower cabinets. The overall aesthetic should be transitional elegance, mixing traditional elements like subway tile with contemporary two-tone cabinetry and luxurious marble surfaces.
+
+            </code>
+          </Card>
+        </Card>
+        <Card title="Organic Modern Living Room" icon="sofa">
+          <div style={{ textAlign:"center",marginBottom:"20px" }}>
+          ![Living Room Example](https://via.placeholder.com/800x500/ffffff/cccccc?text=Living+Room+Visualization)
+
+          </div>
+
+          <Card title="Prompt" icon="edit">
+            <code>
+            a Living room designed by KENNEDY NOLAN. green marble exotic bookmatched WALLS, a large abstract framed art in rich light neutral tones, and BLACK SLATE floor provide focal points that draw the eye. warmth of whiskey-toned Oak with the coolness of vein-cut Travertine, create a dynamic interplay that defines Organic Modernism. view of subtle Miami beach through huge modern window. during THE MORNING LIGHT, Hyper realistic photo, interior view, detail shot, detail, depth of field, high resolution photography captured in the style of Nikon Z6 II, volumetric lighting used in a studio light style, editorial magazine
+
+            </code>
+          </Card>
+        </Card>
+      </CardGroup>
+    </Accordion>
+  </Tab>
+  <Tab title="Minimalist Prompts">
+    Isolate products in ultra-simple settings to highlight shape, color, and material. Perfect for catalogs and e-commerce.
+
+    #### Prompt Structure Framework
+
+    <AccordionGroup>
+      <Accordion title="Main Product" icon="bullseye">
+        <ul>
+        Object: Name, color, material, style.
+
+        Positioning: Viewing angle (e.g., front, side, 3/4).
+
+        </ul>
+      </Accordion>
+      <Accordion title="Floor & Wall" icon="decor">
+        <ul>
+        Floor: Material, color, texture (e.g., polished concrete, light oak, white marble).
+
+        Wall: Color, texture (e.g., matte white, light gray, raw concrete).
+
+        </ul>
+      </Accordion>
+      <Accordion title="Lighting" icon="light">
+        <ul>
+        Source: Natural (e.g., soft and diffused) or artificial (e.g., neutral studio lighting).
+
+        Direction: Even, without harsh shadows.
+
+        </ul>
+      </Accordion>
+    </AccordionGroup>
+    #### Fill-in-the-Blank Template
 
     <CodeGroup>
 
-    ```text Add Elements
-    "Add a large window with curtains"
+    ```text
+    [Product name], [color], [material], [style], [viewing angle].
+    It is placed on a [floor material], [floor color].
+    The wall behind is [wall color/texture], with no decor.
+    The lighting is [type: soft natural/studio lighting], [direction: even/no harsh shadows].
     ```
 
-    
-    ```text Remove Elements
-    "Remove the fireplace"
+    </CodeGroup>
+
+    #### Example Prompts
+
+    <AccordionGroup>
+      <Accordion title="Chair Example" icon="chair">
+        <CodeGroup>
+
+        ```text
+        Black metal and cognac leather design chair, viewed from the side.
+        Placed on anthracite gray polished concrete floor.
+        Plain light gray wall background.
+        Neutral studio lighting, no cast shadows.
+        ```
+
+        </CodeGroup>
+      </Accordion>
+      <Accordion title="Vase Example" icon="vase">
+        <CodeGroup>
+
+        ```text
+        White matte ceramic cylindrical vase, viewed at 3/4 angle.
+        Light oak sanded wooden floor.
+        Very light beige smooth background wall.
+        Diffused natural light, no reflections.
+        ```
+
+        </CodeGroup>
+      </Accordion>
+      <Accordion title="Lamp Example" icon="lightbulb">
+        <CodeGroup>
+
+        ```text
+        Brushed brass table lamp with white shade, viewed from front.
+        White marble floor with pale gray veining.
+        Smooth off-white wall.
+        Soft overhead lighting highlights metal reflections.
+        ```
+
+        </CodeGroup>
+      </Accordion>
+    </AccordionGroup>
+    <Check>
+      Stick to neutral tones and keep lighting even and soft to avoid distractions
+    </Check>
+  </Tab>
+</Tabs>
+
+---
+
+## 2. Lamps & Accessories Mastery
+
+Create compelling visuals using two strategic approaches based on your marketing objectives.
+
+<Tabs>
+  <Tab title="Zoomed-In Scenes">
+    ### Prompt Construction
+
+    Highlight product design, materials, and textures in intimate settings.
+
+    <Steps>
+      <Step title="Define Main Product">
+        Specify type, materials, colors, and positioning.
+
+        **Example:** "_Brass and glass table lamp with linen shade, warm antique finish, positioned on textured linen-covered surface._"
+      </Step>
+      <Step title="Create Supporting Environment">
+        Choose complementary surface and backdrop materials.\
+        \
+        **Example:** "_Textured linen tablecloth in warm earthy tones. Rich tapestry backdrop with intricate patterns in muted greens and browns._"
+      </Step>
+      <Step title="Add Contextual Elements">
+        Include small objects that enhance the aesthetic.\
+        \
+        **Example:** "_Ceramic vase with dried foliage, stack of vintage books. Subtle shadows cast on linen surface._"
+      </Step>
+      <Step title="Perfect the Lighting">
+        Create warm, intimate atmosphere.\
+        \
+        **Example:** "_Soft ambient lighting creates warm glow, lamp casts subtle shadows, enhancing cozy rustic atmosphere._"
+      </Step>
+    </Steps>
+    #### Zoomed-In Template
+
+    <CodeGroup>
+
+    ```text
+    [Lamp/accessory name], made of [materials], in [colors], positioned on a [surface material] with [surface texture].
+    The backdrop features [backdrop description: tapestry, fabric, wall].
+    Nearby, [supporting elements: vase, books, plants] add depth and context.
+    [Lighting description] creates [effects: shadows, glow], enhancing the [mood: cozy, elegant, modern] and [emotional tone: warmth, sophistication, tranquility].
     ```
 
-    
-    ```text Change Style
-    "Make it industrial with exposed brick"
+    </CodeGroup>
+
+    <Tip>
+      Place your product big enough into the initial canva to create a zoom-in image.
+    </Tip>
+  </Tab>
+  <Tab title="Zoomed-Out Scenes">
+    ### Prompt Construction
+
+    Showcase products in complete interior settings to demonstrate scale, placement, and ambient integration.
+
+    <Steps>
+      <Step title="Define Main Product">
+        Specify the type of lamp/accessory and its placement in the room.\\
+
+        **Example:** "_Modern chandelier with a metallic finish, hanging from the ceiling in a contemporary dining room._"
+      </Step>
+      <Step title="Describe the Room Setting">
+        - Detail the **walls** (e.g., smooth plaster, painted finish).
+        - Mention the **floors** (e.g., concrete, hardwood, tiles).
+        - Include **architectural features** (e.g., archways, high ceilings, large windows).
+
+        **Example:** _"The chandelier hangs in a modern dining room with smooth light grey plaster walls and a soft matte finish. A large archway in the foreground leads to another space, and a dark wooden door with subtle grain adds contrast. The floor is light grey concrete, and a soft white rug is positioned under the chandelier."_
+      </Step>
+      <Step title="Add Furniture and Decor">
+        - Include **key furniture** (e.g., dining table, chairs, sideboards).
+        - Add **decorative elements** (e.g., sculptures, vases, artwork).
+
+        **Example:** _"The dining table below the chandelier is adorned with abstract geometric sculptures in metallic finishes. Soft sunlight streams through the archway, casting long shadows across the room."_
+      </Step>
+      <Step title="Detail the Lighting">
+        - Describe **natural light** (e.g., sunlight through windows).
+        - Mention **artificial light** (e.g., chandelier glow, ambient lighting).
+
+        **Example:** _"Soft sunlight streams through the archway, while the chandelier emits a warm ambient glow, creating an open and airy feel."_
+      </Step>
+      <Step title="Define the Atmosphere">
+        - Specify the **mood** (e.g., modern, cozy, luxurious).
+        - Highlight the **emotional tone** (e.g., spacious, inviting, elegant).
+
+        **Example:** _"The high ceiling and natural light give the room an open, airy atmosphere, while the chandelier adds a touch of modern elegance."_
+      </Step>
+    </Steps>
+    #### Full Interior Template
+
+    <CodeGroup>
+
+    ```text
+    [Lamp/accessory name], made of [materials], [position: hanging/placed] in a [room type].
+    The room features [wall description: plaster, paint, texture] and [floor description: concrete, hardwood].
+    Key furniture includes [furniture: table, chairs, shelves], and decorative elements like [decor: sculptures, rugs, artwork] add context.
+    [Lighting description: natural sunlight, product glow] creates [effects: shadows, ambiance], resulting in a [mood: modern, cozy, luxurious] atmosphere.
     ```
 
-    
-    ```text Adjust Mood
-    "Warmer lighting, sunset glow"
+    </CodeGroup>
+
+    **Example:**
+
+    <CodeGroup>
+
+    ```text
+    Modern chandelier with sleek metallic finish, hanging in contemporary dining room. Smooth light grey plaster walls with soft matte finish, large archway frames space. Dark wooden door adds texture, light grey concrete floor softened by white rug. Abstract geometric sculptures on dining table reflect chandelier's metallic sheen. Soft sunlight streams through archway, creating open, airy ambiance.
     ```
 
     </CodeGroup>
   </Tab>
-  <Tab title="Direct Editing">
-    Edit the prompt text directly for precise control over every element and detail.
-  </Tab>
 </Tabs>
 
-## What Makes a Good Prompt?
+---
 
-<Card title="Essential Elements" icon="checklist">
-  Include these key components:
+## 3. Professional Staging Environments
 
-  <Steps>
-    <Step title="Room Type & Style">
-      "Modern minimalist bedroom"
-    </Step>
-    <Step title="Product Placement">
-      "Sofa against back wall"
-    </Step>
-    <Step title="Lighting & Mood">
-      "Soft morning light"
-    </Step>
-    <Step title="Key Details">
-      "Wooden coffee table, plants"
-    </Step>
-  </Steps>
-</Card>
+Create functional, realistic environments where products fit seamlessly into professional settings.
 
-### Prompt Formula
+<CardGroup cols={1}>
+  <Card title="Key Principles" icon="key">
+    <ul>
+    • Accessorize the product to show it in context (e.g., computer on a desk, cutlery on a restaurant table).
+    • Describe the background to enhance the scene and avoid distractions.
+    • Specify professional lighting (e.g., natural, studio, or backlight) to highlight the product effectively.
 
-<CodeGroup>
+    </ul>
+  </Card>
+</CardGroup>
 
-```text Structure
-[Style] [Room Type] with [Product Placement], [Lighting], [Mood], [Key Elements], [Extras]
-```
-
-
-```text Example
-"Modern farmhouse living room with gray sofa against shiplap wall, warm afternoon light, cozy atmosphere, wooden coffee table, woven rug, potted plants"
-```
-
-</CodeGroup>
-
-## Be Specific
+### Prompt Exemples
 
 <Tabs>
-  <Tab title="Comparison Guide">
-    | What to specify | Weak            | Strong                                     |
-    | --------------- | --------------- | ------------------------------------------ |
-    | Style           | "nice room"     | "mid-century modern living room"           |
-    | Placement       | "sofa in room"  | "sofa against north wall facing fireplace" |
-    | Lighting        | "good lighting" | "soft natural light from large windows"    |
-    | Mood            | "comfortable"   | "warm, inviting with hygge elements"       |
+  <Tab title="Restaurant">
+    <AccordionGroup>
+      <Accordion title="Restaurant Staging" icon="utensils">
+        <p>
+        Example Prompt:
+
+        </p>
+
+        <CodeGroup>
+
+        ```text
+        Modern urban café or restaurant interior, viewed from the entrance toward the back seating area. The space features a harmonious blend of contemporary and minimalist design elements. In the foreground, place a series of light gray banquette seating along the left wall, paired with small marble-topped tables and black metal legs. Each table is set with simple white ceramic plates, linen napkins, and a small vase holding delicate white flowers. The banquette is upholstered in a soft, light gray fabric, creating a cozy and inviting atmosphere. In the background, position my restaurant table as part of the main dining area. The table should have a sleek marble top with subtle gray veining, supported by a black metal frame. Surround it with four modern dining chairs, upholstered in dark gray fabric with thin, gold-toned metal legs. The table is set with minimalist white tableware, polished silver cutlery, and clear glass drinkware, ready to welcome guests. The walls are adorned with vertical dark green panels, adding depth and a touch of elegance to the space. Suspended above the tables are white pendant lights with a retro-inspired design, casting a warm and inviting glow. The ceiling features a grid of black slatted panels, adding a geometric contrast to the room. The floor is covered in light wood planks, complementing the overall modern aesthetic. Large windows on the right side of the image let in ample natural light, softened by horizontal blinds. Outside the windows, a hint of greenery is visible, adding a refreshing touch to the urban setting. The overall atmosphere is one of modern sophistication, with a balance of warm and cool tones, creating a welcoming environment for diners.
+        ```
+
+        </CodeGroup>
+      </Accordion>
+    </AccordionGroup>
   </Tab>
-  <Tab title="What to Avoid">
-    <Warning>
-      Avoid overly technical or conflicting details that may confuse the AI generation process.
-    </Warning>
+  <Tab title="Corporate">
+    <AccordionGroup>
+      <Accordion title="Office Environments" icon="briefcase">
+        <p>
+        Prompt Structure:
+
+        </p>
+
+        <CodeGroup>
+
+        ```text
+        Desk in front of a office chair in a modern office, smooth concrete floors, exposed industrial ceiling with visible ductwork, large floor-to-ceiling windows on the right, framed in black metal, with horizontal blinds, lush greenery visible outside, vertical wooden slat wall in the background, soft natural light streaming through windows, casting shadows on the floor, sleek linear pendant lights hanging from the ceiling, subtle reflections on the floor, neutral color palette, minimalistic decor, plants in the background adding a touch of nature
+        ```
+
+        </CodeGroup>
+      </Accordion>
+    </AccordionGroup>
+  </Tab>
+  <Tab title="Education">
+    <AccordionGroup>
+      <Accordion title="Educational Spaces" icon="graduation-cap">
+        <p>
+        Prompt Structure:
+
+        </p>
+
+        <CodeGroup>
+
+        ```text
+        Table centered in a modern classroom high school space, exposed red brick walls, smooth green accent wall, matte finish, large glass partition with black metal frames, visible in the background, light grey polished concrete floors, overhead industrial-style  lights, g soft natural light streaming through glass, casting subtle shadows on the floor, high ceiling with exposed ductwork, blackboard modern artwork on the walls, potted plants adding greenery, in the background, smooth white plaster walls, wooden industrial shelves with baskets boxes, large floor-to-ceiling windows in the background, framed in black, with clear glass, views of greenery and building outside, soft natural light streaming through, light grey linoleum floors, matte finish, blackboard on the wall in the background, potted plants with lush green leaves in the corners, fluorescent ceiling lights, standard-height ceiling, soft shadows cast on the floor.
+        ```
+
+        </CodeGroup>
+      </Accordion>
+    </AccordionGroup>
   </Tab>
 </Tabs>
 
-## Tips for Different Rooms
+---
 
-<AccordionGroup>
-  <Accordion title="Living Room" icon="couch">
-    Focus on: Seating arrangements, focal points, natural light sources
+## New: Presti Styles
 
-    **Example:**
-    "Open-concept living room with L-shaped sofa facing wall-mounted TV, large windows with city view, modern minimalist style"
-  </Accordion>
-  <Accordion title="Bedroom" icon="bed">
-    Focus on: Bed style, textures, lighting ambiance
+<Card title="Skip the Prompting" icon="magic-wand" color="#purple">
+  Skip writing prompts altogether\! Choose from curated style presets to instantly apply a consistent look and feel to your scene — perfect for fast, professional results without needing to prompt.
 
-    **Key Elements:**
-
-    - Bed positioning and style
-    - Textile choices and colors
-    - Lighting mood and sources
-  </Accordion>
-  <Accordion title="Office" icon="briefcase">
-    Focus on: Desk placement, lighting quality, organization systems
-
-    **Consider:**
-
-    - Workspace functionality
-    - Natural vs artificial lighting
-    - Storage and organization
-  </Accordion>
-</AccordionGroup>
-
-## Advanced Tips
-
-<Card title="Iterative Improvement Process" icon="refresh">
-  <Steps>
-    <Step title="Start Broad">
-      Begin with a broad idea for your scene
-    </Step>
-    <Step title="Generate & Review">
-      Create initial version and analyze results
-    </Step>
-    <Step title="Identify Changes">
-      Note what needs adjustment or improvement
-    </Step>
-    <Step title="Refine Prompt">
-      Update your prompt with specific changes
-    </Step>
-    <Step title="Regenerate">
-      Create new version with refined prompt
-    </Step>
-  </Steps>
+  <CardGroup cols={3}>
+    <Card title="Fast Results" icon="zap">
+      Instant style application
+    </Card>
+    <Card title="Professional" icon="award">
+      Curated presets
+    </Card>
+    <Card title="Consistent" icon="layers">
+      Unified look & feel
+    </Card>
+  </CardGroup>
 </Card>
-
-### Maintaining Consistency
-
-<Tabs>
-  <Tab title="Style Consistency">
-    To keep consistent style across images:
-
-    - Save and reuse successful prompts
-    - Create prompt templates for different scenarios
-    - Reference past prompts that worked well
-  </Tab>
-  <Tab title="Best Practices">
-    - Document your most effective prompts
-    - Keep track of successful modifications
-    - Share proven prompts with your team
-    - Test variations to optimize results
-  </Tab>
-</Tabs>
-
-## Example Prompts
-
-<AccordionGroup>
-  <Accordion title="Scandinavian Style" icon="home">
-    ```text
-    "Scandinavian living room with white linen sofa, pale gray walls, natural oak floors, minimal decor, bright and airy, hygge vibe"
-    ```
-  </Accordion>
-  <Accordion title="Modern Office" icon="computer">
-    ```text
-    "Modern home office with standing desk near floor-to-ceiling windows, ergonomic chair, plants on shelves, clean and productive"
-    ```
-  </Accordion>
-  <Accordion title="Boutique Hotel" icon="building">
-    ```text
-    "Boutique hotel bedroom with navy velvet headboard, white bedding, brass accents, soft evening lighting, luxurious feel"
-    ```
-  </Accordion>
-</AccordionGroup>
 
 ## Pro Tips
 

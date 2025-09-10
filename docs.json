@@ -54,12 +54,7 @@
               "features/editing/accessorize-post",
               "features/editing/relight",
               "features/editing/ratio",
-              "features/editing/replace-product"
-            ]
-          },
-          {
-            "group": "Generation & Effects",
-            "pages": [
+              "features/editing/replace-product",
               "features/video",
               "features/batch",
               "features/color-swap",
