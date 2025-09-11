@@ -61,6 +61,8 @@ description: "Presti's core AI technology turns simple product photos into beaut
   </Tab>
 </Tabs>
 
+---
+
 ## **The Art of Prompting: A Guide by Product Type and Scene**
 
 Prompting for product visualization requires distinct approaches depending on the product type and its intended environment. This guide breaks down best practices for three categories:
@@ -69,7 +71,7 @@ Prompting for product visualization requires distinct approaches depending on th
 2. **Accessories & Wall/Ceiling-Mounted Products** (require precise placement).
 3. **Professional Staging** (complex environments like restaurants, offices, or classrooms).
 
-Each section includes **tips**, **example prompts**, and **recommended scenes** to achieve realistic, high-quality results.
+Each section includes **prompt structure frameworks**, **example prompts**, and **recommended scenes** to achieve realistic, high-quality results.
 
 ---
 
@@ -82,10 +84,6 @@ Showcase the product as the main subject with two distinct approaches:
 
 <Tabs>
   <Tab title="Brand-Guideline Prompts">
-    ### Rich, Immersive Scenes
-
-    Create stylized environments perfectly aligned with brand guidelines, focusing on ambiance, materials, and architectural context.
-
     #### Prompt Structure Framework
 
     <AccordionGroup>
@@ -116,29 +114,24 @@ Showcase the product as the main subject with two distinct approaches:
       </Accordion>
       <Accordion title="Furniture & Decor" icon="couch">
         <ul>
-        Primary Furniture: Shape, material, color (e.g., velvet chaise, walnut island).
-
-        Secondary Furniture: Tables, shelves, lighting (e.g., brass floor lamp, marble side table).
-
-        Decorative Objects: Vases, bowls, glassware, plants (e.g., ceramic vase, eucalyptus branches).
-
-        Textiles: Curtains, rugs, cushions (e.g., taupe linen drapes, neutral-toned area rug).
+        - Primary Furniture: Shape, material, color (e.g., velvet chaise, walnut island).
+        - Secondary Furniture: Tables, shelves, lighting (e.g., brass floor lamp, marble side table).
+        - Decorative Objects: Vases, bowls, glassware, plants (e.g., ceramic vase, eucalyptus branches).
+        - Textiles: Curtains, rugs, cushions (e.g., taupe linen drapes, neutral-toned area rug).
 
         </ul>
       </Accordion>
       <Accordion title="Environmental Context" icon="building">
         <ul>
-        Exterior View: Landscape (e.g., mountains, city skyline), sky (e.g., blue-to-peach gradient, scattered clouds).
-
-        Lighting Ambience: Effects (e.g., geometric shadows, warm glow).
+        - Exterior View: Landscape (e.g., mountains, city skyline), sky (e.g., blue-to-peach gradient, scattered clouds).
+        - Lighting Ambience: Effects (e.g., geometric shadows, warm glow).
 
         </ul>
       </Accordion>
       <Accordion title="Atmosphere & Emotion" icon="lamp">
         <ul>
-        Style: Mix of styles (e.g., traditional meets modern, contemporary elegance).
-
-        Desired Feeling: Emotion (e.g., cozy, refined, serene, inviting).
+        - Style: Mix of styles (e.g., traditional meets modern, contemporary elegance).
+        - Desired Feeling: Emotion (e.g., cozy, refined, serene, inviting).
 
         </ul>
       </Accordion>
@@ -172,92 +165,156 @@ Showcase the product as the main subject with two distinct approaches:
         **Example:** "_The overall atmosphere is sophisticated and contemplative, perfect for an English-inspired library where traditional architecture meets luxurious comfort in a palette of warm grays and natural tones._"
       </Step>
     </Steps>
-    <Accordion title="Fill-in-the-Blank Template" icon="image">
-      <CardGroup cols={1}>
+    #### Tips & Examples
+
+    <AccordionGroup>
+      <Accordion title="Fill-in-the-Blank Template" icon="template">
         <code>
         [Focal object] in a [room type] with a [style/mood] ambiance.
-        Position the [focal object] near/against [architectural feature], characterized by [materials, colors, shapes].
-        Add [secondary furniture] in [material], with [details: color, texture].
-        The [walls/floors/ceilings] are [material], in [color], with [details: patterns, finishes].
-        Dress the space with [textiles: curtains, rugs] in [material], [color], [details: length, pattern].
-        Light the scene with [light source], creating [effects: shadows, glow].
-        Outside, [view: landscape, city, sky] is visible, with [details: colors, time of day].
-        The atmosphere is [emotion], ideal for [use: reading, entertaining], where [style 1] meets [style 2] in a palette of [colors].[Focal object] in a [room type] with a [style/mood] ambiance.
-        Position the [focal object] near/against [architectural feature], characterized by [materials, colors, shapes].
-        Add [secondary furniture] in [material], with [details: color, texture].
-        The [walls/floors/ceilings] are [material], in [color], with [details: patterns, finishes].
-        Dress the space with [textiles: curtains, rugs] in [material], [color], [details: length, pattern].
-        Light the scene with [light source], creating [effects: shadows, glow].
-        Outside, [view: landscape, city, sky] is visible, with [details: colors, time of day].
-        The atmosphere is [emotion], ideal for [use: reading, entertaining], where [style 1] meets [style 2] in a palette of [colors].
+        Position the [focal object] near/against [architectural feature], characterized by [materials, colors, shapes]. Add [secondary furniture] in [material], with [details: color, texture]. The [walls/floors/ceilings] are [material], in [color], with [details: patterns, finishes]. Dress the space with [textiles: curtains, rugs] in [material], [color], [details: length, pattern]. Light the scene with [light source], creating [effects: shadows, glow]. Outside, [view: landscape, city, sky] is visible, with [details: colors, time of day]. The atmosphere is [emotion], ideal for [use: reading, entertaining], where [style 1] meets [style 2] in a palette of [colors].
 
         </code>
-      </CardGroup>
-    </Accordion>
-    <Accordion title="Prompt Examples" icon="image">
-      <CardGroup cols={1}>
-        <Card title="Sophisticated Kitchen Island" icon="kitchen">
-          <div style={{ textAlign:"center",marginBottom:"20px" }}>
-          ![Kitchen Island Example](https://via.placeholder.com/800x500/ffffff/cccccc?text=Kitchen+Island+Visualization)
+      </Accordion>
+      <Accordion title="Prompt Examples" icon="image">
+        <CardGroup cols={1}>
+          <Card title="Sophisticated Kitchen Island" icon="kitchen">
+            <div style={{ textAlign:"center",marginBottom:"20px" }}>
+            ![Kitchen Island Example](https://via.placeholder.com/800x500/ffffff/cccccc?text=Kitchen+Island+Visualization)
 
-          </div>
+            </div>
 
-          <Card title="Prompt" icon="edit">
-            <code>
-            straight on of island, Create a sophisticated two-tone kitchen showcasing a marble waterfall island as the centerpiece. The island features Carrara marble countertops with gray veining and a base clad in white subway tiles laid in a vertical stack pattern, with three backless bar stools featuring brass frames and tan leather seats. Design upper cabinets in soft gray with glass-front doors displaying white dishware, flanking a concealed range hood. Install lower cabinets in deep charcoal blue. Create a full-height marble slab backsplash matching the countertops. Above the island, suspend two clear glass pendant lights with tiered, vintage-inspired designs and brass hardware on black cords. Include a brass pot filler faucet above the range and matching brass kitchen faucet at the sink. Style the island with a white ceramic vase containing burgundy and green foliage, fresh lemons in a navy bowl, white serving pieces, and cookbooks. The flooring should be dark wood in a herringbone pattern. Paint walls in soft white with detailed crown molding. Natural light should illuminate the space, highlighting the contrast between the light upper cabinets and dark lower cabinets. The overall aesthetic should be transitional elegance, mixing traditional elements like subway tile with contemporary two-tone cabinetry and luxurious marble surfaces.
+            <Card title="Prompt" icon="edit">
+              <code>
+              Counter stools behind a straight on of an island, create a sophisticated two-tone kitchen showcasing a marble waterfall island as the centerpiece. The island features Carrara marble countertops with gray veining and a base clad in white subway tiles laid in a vertical stack pattern. Design upper cabinets in soft gray with glass-front doors displaying white dishware, flanking a concealed range hood. Install lower cabinets in deep charcoal blue. Create a full-height marble slab backsplash matching the countertops. Above the island, suspend two clear glass pendant lights with tiered, vintage-inspired designs and brass hardware on black cords. Include a brass pot filler faucet above the range and matching brass kitchen faucet at the sink. Style the island with a white ceramic vase containing burgundy and green foliage, fresh lemons in a navy bowl, white serving pieces, and cookbooks. The flooring should be dark wood in a herringbone pattern. Paint walls in soft white with detailed crown molding. Natural light should illuminate the space, highlighting the contrast between the light upper cabinets and dark lower cabinets. The overall aesthetic should be transitional elegance, mixing traditional elements like subway tile with contemporary two-tone cabinetry and luxurious marble surfaces.
 
-            </code>
+              </code>
+            </Card>
           </Card>
-        </Card>
-        <Card title="Organic Modern Living Room" icon="sofa">
-          <div style={{ textAlign:"center",marginBottom:"20px" }}>
-          ![Living Room Example](https://via.placeholder.com/800x500/ffffff/cccccc?text=Living+Room+Visualization)
+          <Card title="Organic Modern Living Room" icon="sofa">
+            <div style={{ textAlign:"center",marginBottom:"20px" }}>
+            ![Living Room Example](https://via.placeholder.com/800x500/ffffff/cccccc?text=Living+Room+Visualization)
 
-          </div>
+            </div>
 
-          <Card title="Prompt" icon="edit">
-            <code>
-            a Living room designed by KENNEDY NOLAN. green marble exotic bookmatched WALLS, a large abstract framed art in rich light neutral tones, and BLACK SLATE floor provide focal points that draw the eye. warmth of whiskey-toned Oak with the coolness of vein-cut Travertine, create a dynamic interplay that defines Organic Modernism. view of subtle Miami beach through huge modern window. during THE MORNING LIGHT, Hyper realistic photo, interior view, detail shot, detail, depth of field, high resolution photography captured in the style of Nikon Z6 II, volumetric lighting used in a studio light style, editorial magazine
+            <Card title="Prompt" icon="edit">
+              <code>
+              Sofa a living room designed by Kennedy Nolan. green marble exotic bookmatched walls, a large abstract framed art in rich light neutral tones, and black slate floor provide focal points that draw the eye. warmth of whiskey-toned Oak with the coolness of vein-cut Travertine, create a dynamic interplay that defines Organic Modernism. view of subtle Miami beach through huge modern window. during the morning light, Hyper realistic photo, interior view, detail shot, detail, depth of field, high resolution photography captured in the style of Nikon Z6 II, volumetric lighting used in a studio light style, editorial magazine.
 
-            </code>
+              </code>
+            </Card>
           </Card>
-        </Card>
-      </CardGroup>
-    </Accordion>
+          <Card title="Organic Modern Living Room" icon="sofa">
+            <div style={{ textAlign:"center",marginBottom:"20px" }}>
+            ![Living Room Example](https://via.placeholder.com/800x500/ffffff/cccccc?text=Living+Room+Visualization)
+
+            </div>
+
+            <Card title="Prompt" icon="edit">
+              <code>
+              Rattan lounge chair in a serene tropical mid-century modern seating area. Position the chair on a 6-foot round natural beige jute area rug. Behind the chair, install floor-to-ceiling French doors with dark espresso-stained wood frames featuring multiple glass panes in a grid pattern, dressed with sheer ivory linen curtains hanging from a recessed rod and pooling slightly on the floor. Place a small round wooden side table matching the chair's wood tone beside it, displaying a distinctive table lamp with a jade green ribbed glass shade resembling vintage car headlights mounted on a turned wood pedestal base, accompanied by a small spotted cowhide decorative object. Add a mature snake plant with dark green leaves reaching 3 feet tall planted in a honey-colored woven rattan basket planter. The space features smooth light gray porcelain floor tiles, soft white walls, and natural afternoon light streaming through the French doors creating diagonal shadows across the floor while revealing glimpses of outdoor greenery. The overall atmosphere should evoke 1960s tropical modernism with contemporary refinement, combining natural materials and rich navy upholstery in a calm, resort-like setting.
+
+              </code>
+            </Card>
+          </Card>
+          <Card title="Organic Modern Living Room" icon="sofa">
+            <div style={{ textAlign:"center",marginBottom:"20px" }}>
+            ![Living Room Example](https://via.placeholder.com/800x500/ffffff/cccccc?text=Living+Room+Visualization)
+
+            </div>
+
+            <Card title="Prompt" icon="edit">
+              <code>
+              Outdoor lounge chairs on a luxurious poolside terrace showcasing modern outdoor lounge chairs as the centerpiece. Set the scene overlooking a stunning infinity pool that seamlessly blends with panoramic views of distant mountains and city skyline. The terrace should be captured during golden hour with warm sunlight creating long shadows across the pale stone flooring. Include small metal lanterns or side tables between the chairs as subtle accent pieces. The sky should display a perfect gradient from deep blue to soft peach near the horizon, with a single wispy cloud adding visual interest. The overall atmosphere should be serene, luxurious, and resort-like, with the geometric white lattice furniture creating an elegant focal point against the breathtaking vista, captured at a wide angle to showcase both the sophisticated outdoor furniture arrangement and the spectacular infinity pool view merging with the distant landscape.
+
+              </code>
+            </Card>
+          </Card>
+          <Card title="Organic Modern Living Room" icon="sofa">
+            <div style={{ textAlign:"center",marginBottom:"20px" }}>
+            ![Living Room Example](https://via.placeholder.com/800x500/ffffff/cccccc?text=Living+Room+Visualization)
+
+            </div>
+
+            <Card title="Prompt" icon="edit">
+              <code>
+              Counter stools in a sophisticated kitchen showcasing a warm walnut island with curved corners as the centerpiece. The island should feature rich brown wood cabinetry with raised panel details and a luxurious marble countertop in soft pink and gray veining. Stools positioned along the island. Behind, design an arched alcove clad entirely in matching pink-veined marble with built-in floating shelves displaying glassware and serving pieces. Install a brass disc pendant light above the island. The surrounding cabinetry should combine charcoal gray panels on one wall with crisp white cabinets elsewhere, all featuring minimal hardware. Style the island with a white ceramic vase filled with cascading eucalyptus branches, rose-tinted glassware, and a wooden serving tray with bowls. The flooring should be warm oak in a herringbone pattern. Natural light should highlight the marble's organic patterns and create a warm glow on the brass fixtures. The overall atmosphere should be elegant and contemporary, mixing warm wood tones, soft marble, and jewel-toned accents to create a refined yet inviting kitchen perfect for both cooking and entertaining.
+
+              </code>
+            </Card>
+          </Card>
+          <Card title="Organic Modern Living Room" icon="sofa">
+            <div style={{ textAlign:"center",marginBottom:"20px" }}>
+            ![Living Room Example](https://via.placeholder.com/800x500/ffffff/cccccc?text=Living+Room+Visualization)
+
+            </div>
+
+            <Card title="Prompt" icon="edit">
+              <code>
+              dining table centered in a modern dining room, expansive floor-to-ceiling windows with black metal frames, view of California Big Sur outside, smooth travertine stone walls, large abstract neutral pink artwork with black frame, polished concrete floors, large glass chandelier with cascading elements, indoor tree for a terrarium vibe, soft natural light flooding the room, subtle reflections on the floor, high ceiling.
+
+              </code>
+            </Card>
+          </Card>
+          <Card title="Organic Modern Living Room" icon="sofa">
+            <div style={{ textAlign:"center",marginBottom:"20px" }}>
+            ![Living Room Example](https://via.placeholder.com/800x500/ffffff/cccccc?text=Living+Room+Visualization)
+
+            </div>
+
+            <Card title="Prompt" icon="edit">
+              <code>
+              Modern outdoor daybed on a luxurious oceanfront terrace positioned under a covered patio. Position this daybed on large format beige limestone tiles (24x24 inch). Directly behind the daybed, feature a dramatic black-bottom infinity pool that creates a seamless visual connection to the ocean beyond. The pool edge should be sleek concrete with no visible coping. Frame the ocean view with specific vegetation: a dramatically curved/windswept pine tree leaning to the right, tropical shrubs and ground cover, and a palm tree visible in the middle distance. The covered patio should have a flat concrete ceiling painted white, creating shade over the daybed area. Beyond the infinity pool, show the Pacific Ocean with medium blue water, small white wave breaks, and a clear horizon line where ocean meets sky. The sky should be bright clear blue indicating midday sun. Natural sunlight should create defined shadows under the daybed and patio cover. Camera angle should be straight-on, capturing the full width of the terrace, daybed, and ocean view in a horizontal composition.
+
+              </code>
+            </Card>
+          </Card>
+          <Card title="Organic Modern Living Room" icon="sofa">
+            <div style={{ textAlign:"center",marginBottom:"20px" }}>
+            ![Living Room Example](https://via.placeholder.com/800x500/ffffff/cccccc?text=Living+Room+Visualization)
+
+            </div>
+
+            <Card title="Prompt" icon="edit">
+              <code>
+              Bed and nightstand in a serene organic modern bedroom. Position the bed against white walls with a light gray painted wainscoting. Include a window with white trim showing views of trees. The flooring should be dark wood with a textured natural fiber area rug in neutral brown tones. Natural light filters softly through the window creating a calm atmosphere. The overall aesthetic should be wabi-sabi inspired with natural materials, earthy textures, and a restrained color palette of whites, grays, and warm browns, creating a peaceful retreat that celebrates imperfect beauty and organic simplicity.
+
+              </code>
+            </Card>
+          </Card>
+        </CardGroup>
+      </Accordion>
+    </AccordionGroup>
   </Tab>
   <Tab title="Minimalist Prompts">
-    Isolate products in ultra-simple settings to highlight shape, color, and material. Perfect for catalogs and e-commerce.
-
     #### Prompt Structure Framework
 
     <AccordionGroup>
       <Accordion title="Main Product" icon="bullseye">
         <ul>
-        Object: Name, color, material, style.
-
-        Positioning: Viewing angle (e.g., front, side, 3/4).
+        - Object: Name, color, material, style.
+        - Positioning: Viewing angle (e.g., front, side, 3/4).
 
         </ul>
       </Accordion>
       <Accordion title="Floor & Wall" icon="decor">
         <ul>
-        Floor: Material, color, texture (e.g., polished concrete, light oak, white marble).
-
-        Wall: Color, texture (e.g., matte white, light gray, raw concrete).
+        - Floor: Material, color, texture (e.g., polished concrete, light oak, white marble).
+        - Wall: Color, texture (e.g., matte white, light gray, raw concrete).
 
         </ul>
       </Accordion>
       <Accordion title="Lighting" icon="light">
         <ul>
-        Source: Natural (e.g., soft and diffused) or artificial (e.g., neutral studio lighting).
-
-        Direction: Even, without harsh shadows.
+        - Source: Natural (e.g., soft and diffused) or artificial (e.g., neutral studio lighting).
+        - Direction: Even, without harsh shadows.
 
         </ul>
       </Accordion>
     </AccordionGroup>
-    <Accordion title="Fill-in-the-Blank Template" icon="image">
-      <CardGroup cols={1}>
+    #### Tips & Examples
+
+    <AccordionGroup>
+      <Accordion title="Fill-in-the-Blank Template" icon="template">
         <code>
         [Product name], [color], [material], [style], [viewing angle].
         It is placed on a [floor material], [floor color].
@@ -265,32 +322,25 @@ Showcase the product as the main subject with two distinct approaches:
         The lighting is [type: soft natural/studio lighting], [direction: even/no harsh shadows].
 
         </code>
-      </CardGroup>
-    </Accordion>
-    <Accordion title="Prompt Examples" icon="image">
-      <CardGroup cols={1}>
-        <Card title="Sophisticated Kitchen Island" icon="kitchen">
-          <div style={{ textAlign:"center",marginBottom:"20px" }}>
-          ![Kitchen Island Example](https://via.placeholder.com/800x500/ffffff/cccccc?text=Kitchen+Island+Visualization)
+      </Accordion>
+      <Accordion title="Prompt Examples" icon="image">
+        <CardGroup cols={1}>
+          <Card title="Sofa against a uniform wall">
+            <div style={{ textAlign:"center",marginBottom:"20px" }}>
+            ![Living Room Example](https://via.placeholder.com/800x500/ffffff/cccccc?text=Living+Room+Visualization)
 
-          </div>
+            </div>
 
-          <Card title="Prompt" icon="edit">
-            <code />
+            <Card title="Prompt" icon="edit">
+              <code>
+              sofa against a wall in a cheerful living room, bright yellow walls, smooth matte finish, no other element.
+
+              </code>
+            </Card>
           </Card>
-        </Card>
-        <Card title="Organic Modern Living Room" icon="sofa">
-          <div style={{ textAlign:"center",marginBottom:"20px" }}>
-          ![Living Room Example](https://via.placeholder.com/800x500/ffffff/cccccc?text=Living+Room+Visualization)
-
-          </div>
-
-          <Card title="Prompt" icon="edit">
-            <code />
-          </Card>
-        </Card>
-      </CardGroup>
-    </Accordion>
+        </CardGroup>
+      </Accordion>
+    </AccordionGroup>
   </Tab>
 </Tabs>
 
@@ -302,6 +352,9 @@ Create compelling visuals using two strategic approaches based on your marketing
 
 <Tabs>
   <Tab title="Zoomed-In Scenes">
+    <Tip>
+      Place your product big enough into the initial canva to create a zoom-in image.
+    </Tip>
     ### Prompt Construction
 
     Highlight product design, materials, and textures in intimate settings.
@@ -328,22 +381,36 @@ Create compelling visuals using two strategic approaches based on your marketing
         **Example:** "_Soft ambient lighting creates warm glow, lamp casts subtle shadows, enhancing cozy rustic atmosphere._"
       </Step>
     </Steps>
-    #### Zoomed-In Template
+    #### Tips & Examples
 
-    <CodeGroup>
+    <AccordionGroup>
+      <Accordion title="Fill-in-the-Blank Template" icon="template">
+        <code>
+        [Lamp/accessory name], made of [materials], in [colors], positioned on a [surface material] with [surface texture].
+        The backdrop features [backdrop description: tapestry, fabric, wall].
+        Nearby, [supporting elements: vase, books, plants] add depth and context.
+        [Lighting description] creates [effects: shadows, glow], enhancing the [mood: cozy, elegant, modern] and [emotional tone: warmth, sophistication, tranquility].
 
-    ```text
-    [Lamp/accessory name], made of [materials], in [colors], positioned on a [surface material] with [surface texture].
-    The backdrop features [backdrop description: tapestry, fabric, wall].
-    Nearby, [supporting elements: vase, books, plants] add depth and context.
-    [Lighting description] creates [effects: shadows, glow], enhancing the [mood: cozy, elegant, modern] and [emotional tone: warmth, sophistication, tranquility].
-    ```
+        </code>
+      </Accordion>
+      <Accordion title="Prompt Examples" icon="image">
+        <CardGroup cols={1}>
+          <Card title="Table Lamp">
+            <div style={{ textAlign:"center",marginBottom:"20px" }}>
+            ![Kitchen Island Example](https://via.placeholder.com/800x500/ffffff/cccccc?text=Kitchen+Island+Visualization)
 
-    </CodeGroup>
+            </div>
 
-    <Tip>
-      Place your product big enough into the initial canva to create a zoom-in image.
-    </Tip>
+            <Card title="Prompt" icon="edit">
+              <code>
+              table lamp, positioned on a textured linen-covered surface, warm earthy tones, rich tapestry backdrop with intricate patterns, muted greens and browns, soft ambient lighting, dried foliage in a ceramic vase, vintage books stacked nearby, subtle shadows cast on the surface, creating a cozy, rustic atmosphere
+
+              </code>
+            </Card>
+          </Card>
+        </CardGroup>
+      </Accordion>
+    </AccordionGroup>
   </Tab>
   <Tab title="Zoomed-Out Scenes">
     ### Prompt Construction
@@ -382,8 +449,10 @@ Create compelling visuals using two strategic approaches based on your marketing
         **Example:** _"The high ceiling and natural light give the room an open, airy atmosphere, while the chandelier adds a touch of modern elegance."_
       </Step>
     </Steps>
-    <Accordion title="Fill-in-the-Blank Template" icon="image">
-      <CardGroup cols={1}>
+    #### Tips & Examples
+
+    <AccordionGroup>
+      <Accordion title="Fill-in-the-Blank Template" icon="template">
         <code>
         [Lamp/accessory name], made of [materials], [position: hanging/placed] in a [room type].
         The room features [wall description: plaster, paint, texture] and [floor description: concrete, hardwood].
@@ -391,27 +460,38 @@ Create compelling visuals using two strategic approaches based on your marketing
         [Lighting description: natural sunlight, product glow] creates [effects: shadows, ambiance], resulting in a [mood: modern, cozy, luxurious] atmosphere.
 
         </code>
-      </CardGroup>
-    </Accordion>
-    <Accordion title="Prompt Examples" icon="image">
-      <CardGroup cols={1}>
-        <Card title="Organic Modern Living Room" icon="sofa">
-          <div style={{ textAlign:"center",marginBottom:"20px" }}>
-          ![Living Room Example](https://via.placeholder.com/800x500/ffffff/cccccc?text=Living+Room+Visualization)
+      </Accordion>
+      <Accordion title="Prompt Examples" icon="image">
+        <CardGroup cols={1}>
+          <Card title="Chandelier">
+            <div style={{ textAlign:"center",marginBottom:"20px" }}>
+            ![Kitchen Island Example](https://via.placeholder.com/800x500/ffffff/cccccc?text=Kitchen+Island+Visualization)
 
-          </div>
+            </div>
 
-          <Card title="Prompt" icon="edit">
-            <code>
-            Modern chandelier with sleek metallic finish, hanging in contemporary dining room. Smooth light grey plaster walls with soft matte finish, large archway frames space. Dark wooden door adds texture, light grey concrete floor softened by white rug. Abstract geometric sculptures on dining table reflect chandelier's metallic sheen. Soft sunlight streams through archway, creating open, airy ambiance.
+            <Card title="Prompt" icon="edit">
+              <code>
+              chandelier hanging from the ceiling, modern dining room, smooth light grey plaster walls, soft matte finish, large archway in the foreground, dark wooden door with subtle grain, light grey concrete floor, soft sunlight streaming through the archway, casting long shadows, soft white rug, subtle texture, positioned under the chandelier, abstract geometric sculptures on the table, metallic finish, soft ambient lighting, high ceiling, creating an open airy feel.
 
-            </code>
-
-            <code />
+              </code>
+            </Card>
           </Card>
-        </Card>
-      </CardGroup>
-    </Accordion>
+          <Card title="Vase">
+            <div style={{ textAlign:"center",marginBottom:"20px" }}>
+            ![Kitchen Island Example](https://via.placeholder.com/800x500/ffffff/cccccc?text=Kitchen+Island+Visualization)
+
+            </div>
+
+            <Card title="Prompt" icon="edit">
+              <code>
+              Vase in a cozy built-in breakfast nook positioned prominently on a round natural wood pedestal table with a fluted or ridged cylindrical base. Set the scene within warm oak built-in shelving with a deep sage green painted back wall. Behind the vase, create an L-shaped banquette with cushions upholstered in a green and cream checkered or geometric pattern. Above the seating area, arrange a small gallery wall with 2-3 framed artworks in natural tones. Include a woven rattan dining chair with natural wood frame positioned at the table, featuring an intricate basketweave pattern in the seat and back. The shelving should be styled minimally with ceramic vessels, a few books, and pottery pieces in neutral tones. Natural light should stream in from the left, creating dramatic shadows and highlighting the vase's textured surface and metallic finish. The floor should be light wood or neutral tile with a textured natural fiber rug visible in the corner. The overall atmosphere should be warm, sophisticated, and inviting, with the sculptural vase commanding attention as the focal point of this intimate dining space, zoomed out to see more of the built-in
+
+              </code>
+            </Card>
+          </Card>
+        </CardGroup>
+      </Accordion>
+    </AccordionGroup>
   </Tab>
 </Tabs>
 
@@ -432,7 +512,7 @@ Create functional, realistic environments where products fit seamlessly into pro
   </Card>
 </CardGroup>
 
-### Prompt Exemples
+### Prompt Examples
 
 <Tabs>
   <Tab title="Restaurant">
